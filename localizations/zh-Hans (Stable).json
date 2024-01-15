@@ -51,5 +51,9 @@
   "node.sampling.ksampler.input.seed.name" : "随机种子",
   "node.sampling.ksampler.input.steps.name" : "迭代步数",
   "node.sampling.ksampler.main_context._title" : "Karras 类采样器",
-  "node.sampling.ksampler.title" : "Karras 类采样器"
+  "node.sampling.ksampler.title" : "Karras 类采样器",
+  "ui.sidebar.extra_options" : "额外选项",
+  "ui.sidebar.load_button" : "加载",
+  "ui.sidebar.queue_button" : "加入队列",
+  "ui.sidebar.save_button" : "保存"
 }
