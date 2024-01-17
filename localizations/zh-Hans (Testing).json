@@ -85,7 +85,7 @@
   "ui.sidebar.queue_button" : "加入队列",
   "ui.sidebar.queue_front_button" : "插队",
   "ui.sidebar.refresh_button" : "刷新",
-  "ui.sidebar.save_api_button" : "保存（API格式）",
+  "ui.sidebar.save_api_button" : "保存 (API 格式)",
   "ui.sidebar.save_button" : "保存",
   "ui.sidebar.view_history_button" : "查看历史记录",
   "ui.sidebar.view_queue_button" : "查看队列内容"
