@@ -56,6 +56,8 @@
   "node.loaders.checkpointloadersimple.input.ckpt_name.name" : "模型名称",
   "node.loaders.checkpointloadersimple.output.model.name" : "U-Net",
   "node.loaders.checkpointloadersimple.slot_context.model._title" : "U-Net 模型",
+  "node.sampling.ksampler.input.negative.name" : "反向调节",
+  "node.sampling.ksampler.input.positive.name" : "正向调节",
   "node.sampling.ksampler.input.sampler_name.name" : "采样器",
   "node.sampling.ksampler.input.seed.name" : "随机种子",
   "node.sampling.ksampler.input.steps.name" : "迭代步数",
