@@ -38,6 +38,8 @@
   "context.canvas_menu.add_node.animate_diff_.motion_settings.experimental" : "实验性的",
   "context.canvas_menu.add_node.animate_diff_.noise_layers" : "噪波层",
   "context.canvas_menu.add_node.animatediff_script" : "AnimateDiff 脚本",
+  "context.canvas_menu.add_node.animeface_semsegpreprocessor" : "动漫脸分割器",
+  "context.canvas_menu.add_node.animelineartpreprocessor" : "动漫线稿",
   "context.canvas_menu.add_node.areatomask" : "蒙版区域",
   "context.canvas_menu.add_node.bae-normalmappreprocessor" : "BAE 法线贴图",
   "context.canvas_menu.add_node.bboxdetectorcombined_v2" : "BBOX 检测器 (组合式)",
