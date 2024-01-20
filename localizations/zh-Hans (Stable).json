@@ -99,6 +99,7 @@
   "context.canvas_menu.add_node.if_any_execute_a_else_b" : "条件判断",
   "context.canvas_menu.add_node.image" : "图像",
   "context.canvas_menu.add_node.image_analyze" : "图像分析",
+  "context.canvas_menu.add_node.image_high_pass_filter" : "图像高通滤波器",
   "context.canvas_menu.add_node.imageinvert" : "反转图像",
   "context.canvas_menu.add_node.image.preprocessors" : "预处理器",
   "context.canvas_menu.add_node.image_rembg_(remove_background)" : "删除图像背景 (Rembg)",
