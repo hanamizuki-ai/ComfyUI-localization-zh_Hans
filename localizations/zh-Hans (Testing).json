@@ -132,6 +132,9 @@
       "add_node.conditioning.gligen" : "gligen",
       "add_node.conditioning.inpaint" : "重绘",
       "add_node.conditioning_input_switch" : "调整融合输入",
+      "add_node.conditioningsetarea" : "调节 (设置区域)",
+      "add_node.conditioningsetareapercentage" : "调节 (按百分比设置区域)",
+      "add_node.conditioningsetmask" : "调节 (设置蒙版)",
       "add_node.conditioning.style_model" : "风格模型",
       "add_node.conditioning.upscale_diffusion" : "扩散放大",
       "add_node.conditioning.video_models" : "视频模型",
@@ -154,6 +157,7 @@
       "add_node.create_morph_image" : "创建图像变化序列",
       "add_node.create_morph_image_from_path" : "从路径创建图像变化序列",
       "add_node.create_video_from_path" : "从路径创建视频",
+      "add_node.cropmask" : "裁切蒙版",
       "add_node.custom_node_experiments" : "自定义节点试验",
       "add_node.debug" : "调试",
       "add_node.debuginput" : "调试输入",
@@ -179,6 +183,7 @@
       "add_node.efficiency_nodes" : "高效节点",
       "add_node.efficiency_nodes.image" : "图像",
       "add_node.efficiency_nodes.loaders" : "加载器",
+      "add_node.efficiency_nodes.misc" : "杂项",
       "add_node.efficiency_nodes.sampling" : "采样器",
       "add_node.efficiency_nodes.scripts" : "脚本",
       "add_node.efficiency_nodes.simple_eval" : "简要评估",
@@ -202,9 +207,12 @@
       "add_node.facedetailer" : "面部细化",
       "add_node.facedetailerpipe" : "面部细化 (pipe)",
       "add_node.facetomask" : "面部区域蒙版",
+      "add_node.facialpartcoloringfromposekps" : "由 PoseKPS 为面部部位着色",
       "add_node.fakescribblepreprocessor_provider_for_segs_..inspire" : "伪涂鸦预处理器提供程序 (SEGS)",
       "add_node.featheredmask" : "羽化的蒙版",
       "add_node.feathermask" : "羽化蒙版",
+      "add_node.film_vfi" : "FILM 视频插帧",
+      "add_node.flavr_vfi" : "FLAVR 视频插帧",
       "add_node.float" : "浮点数",
       "add_node.floatrange_..inspire" : "浮点范围（inspire）",
       "add_node.floatslider" : "浮点变化",
@@ -227,6 +235,8 @@
       "add_node.hypertile" : "超分区",
       "add_node.hypertile_..inspire" : "超分区（Inspire）",
       "add_node.if_any_execute_a_else_b" : "条件判断",
+      "add_node.ifrnet_vfi" : "IFRNet 视频插帧",
+      "add_node.ifunet_vfi" : "IFUnet 视频插帧",
       "add_node.image" : "图像",
       "add_node.image_analyze" : "图像分析",
       "add_node.image.animation" : "动画",
@@ -354,11 +364,19 @@
       "add_node.impactsegsorderedfilter" : "SEGS 滤波器 (已排序)",
       "add_node.impactsegspicker" : "选择器 (SEGS)",
       "add_node.impactsegsrangefilter" : "SEGS 滤波器 (范围)",
+      "add_node.impactsegstomaskbatch" : "SEGS 转换为蒙版批次",
+      "add_node.impactsegstomasklist" : "SEGS 转换为蒙版列表",
+      "add_node.impactsimpledetectorsegs" : "基础检测器 (SEGS)",
+      "add_node.impactsimpledetectorsegs_for_ad" : "AnimateDiff 基础检测器 (SEGS)",
+      "add_node.impactsimpledetectorsegspipe" : "基础检测器 (SEGS/pipe)",
+      "add_node.inpaintpreprocessor_provider_for_segs_..inspire" : "重绘预处理器提供程序 (SEGS)",
       "add_node.inspirepack.a1111_compat" : "A1111 兼容",
       "add_node.inspirepack.backend" : "后端",
       "add_node.inspirepack.__for_testing" : "测试用",
       "add_node.inspirepack.image" : "图像",
       "add_node.inspirepack.prompt" : "提示词",
+      "add_node.inspirepack.segs" : "SEGS",
+      "add_node.inspirepack.segs.controlnet" : "ControlNet",
       "add_node.inspirepack.util" : "工具",
       "add_node.int" : "整数",
       "add_node.ksampler" : "Karras 类采样器",
@@ -885,6 +903,9 @@
           "input" : {
             "ckpt_name" : {
               "name" : "模型名称"
+            },
+            "frames" : {
+              "name" : "帧数"
             }
           }
         },
@@ -913,6 +934,9 @@
           "input" : {
             "ckpt_name" : {
               "name" : "模型名称"
+            },
+            "frames" : {
+              "name" : "帧数"
             }
           }
         },
