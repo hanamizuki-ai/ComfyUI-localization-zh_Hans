@@ -1,2306 +1,656 @@
 {
-  "context" : {
-    "canvas_menu" : {
-      "add_group" : "创建节点分组",
-      "add_node" : "添加节点",
-      "add_node.ade_animatediffloaderv1advanced" : "AnimateDiff 加载器 (高级) [已弃用] \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.ade_animatediffloaderwithcontext" : "AnimateDiff 加载器 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.ade_animatediffloraloader" : "AnimateDiff LoRA 加载器 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.ade_animatediffsamplingsettings" : "采样设置 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.ade_animatediffuniformcontextoptions" : "统一上下文选项 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.ade_emptylatentimagelarge" : "空白潜空间图像 (大批量) \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.advanced" : "高级",
-      "add_node.advanced.conditioning" : "调节",
-      "add_node.advanced.loaders" : "加载器",
-      "add_node.advanced.loaders.deprecated" : "已弃用",
-      "add_node.advanced.model" : "模型",
-      "add_node.advanced.model_merging" : "模型合并",
-      "add_node.animate_diff_" : "Animate Diff \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.animate_diff_.deprecated_(do_not_use)" : "已弃用 (请勿使用)",
-      "add_node.animate_diff_.extras" : "其他",
-      "add_node.animatediffloaderv1" : "AnimateDiff 加载器 [已弃用] \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
-      "add_node.animatediff_script" : "AnimateDiff 脚本",
-      "add_node.basicscheduler" : "基础调度器",
-      "add_node.binarypreprocessor" : "黑白线条",
-      "add_node.blip_analyze_image" : "BLIP 图像分析",
-      "add_node.blip_model_loader" : "BLIP 模型加载器",
-      "add_node.bnk_addclipsdxlparams" : "添加 CLIP SDXL 参数",
-      "add_node.bnk_addclipsdxlrparams" : "添加 CLIP SDXL Refiner 参数",
-      "add_node.bnk_cliptextencodeadvanced" : "CLIP 编码文本 (高级)",
-      "add_node.bnk_cliptextencodesdxladvanced" : "CLIP 编码文本 (SDXL) (高级)",
-      "add_node.bool" : "布尔",
-      "add_node.bus_node" : "总线节点",
-      "add_node.cachebackenddata_..inspire" : "缓存后端数据 (Inspire)",
-      "add_node.cachebackenddatalist_..inspire" : "缓存后端数据列表 (Inspire)",
-      "add_node.cachebackenddatanumberkey_..inspire" : "缓存后端数据 [数字键] (Inspire)",
-      "add_node.cachebackenddatanumberkeylist_..inspire" : "缓存后端数据列表 [数字键] (Inspire)",
-      "add_node.cache_node" : "缓存节点",
-      "add_node.cannyedgepreprocessor" : "Canny 边缘检测",
-      "add_node.cdtuner" : "应用 CDTuner",
-      "add_node.checkpoint_loader" : "模型加载器",
-      "add_node.checkpointloader" : "使用配置文件加载模型 (已弃用)",
-      "add_node.checkpointloader|pysssss" : "模型加载器 \uD83D\uDC0D",
-      "add_node.checkpoint_loader_(simple)" : "模型加载器 (简易)",
-      "add_node.checkpointloadersimple" : "加载 Checkpoint",
-      "add_node.checkpointloadersimpleshared_..inspire" : "共享模型加载器 (Inspire)",
-      "add_node.checkpointsave" : "存储模型",
-      "add_node.chineseprompt_mix" : "中文提示词 ♾️Mixlab",
-      "add_node.cliploader" : "加载 CLIP",
-      "add_node.clipsave" : "保存 CLIP",
-      "add_node.clipseg_batch_masking" : "CLIPSeg 批量蒙版",
-      "add_node.clipseg_model_loader" : "CLIPSeg 模型加载器",
-      "add_node.clipsetlastlayer" : "CLIP 提前终止层",
-      "add_node.cliptextencode" : "CLIP 编码文本 (提示词)",
-      "add_node.cliptextencodelist" : "CLIP 编码文本序列 (高级)",
-      "add_node.cliptextencode_(nsp)" : "CLIP 编码文本 (NSP)",
-      "add_node.cliptextencodesdxl" : "CLIP 编码文本 (SDXL)",
-      "add_node.cliptextencodesdxlrefiner" : "CLIP 编码文本 (SDXL Refiner)",
-      "add_node.cliptextencodesequence2" : "CLIP 编码文本序列 (v2)",
-      "add_node.cliptextencodewithweight_..inspire" : "CLIP 编码带权重文字 (Inspire)",
-      "add_node.clipvisionencode" : "CLIP 编码图片",
-      "add_node.clipvisionloader" : "加载 CLIP Vision",
-      "add_node.color" : "颜色",
-      "add_node.comfyui-frame-interpolation" : "ComfyUI 插帧",
-      "add_node.comfyui-frame-interpolation.others" : "其他",
-      "add_node.comfyui-frame-interpolation.vfi" : "视频插帧",
-      "add_node.compare" : "比较",
-      "add_node.conditioning" : "调节",
-      "add_node.conditioning.3d_models" : "3D 模型",
-      "add_node.conditioning.advanced" : "高级",
-      "add_node.conditioningblend" : "调节 (混合)",
-      "add_node.conditioningcombine" : "调节 (组合)",
-      "add_node.conditioningconcat" : "调节 (连接)",
-      "add_node.conditioning.inpaint" : "重绘",
-      "add_node.conditioning.upscale_diffusion" : "扩散放大",
-      "add_node.conditioning.video_models" : "视频模型",
-      "add_node.controlnetapply" : "应用 ControlNet",
-      "add_node.controlnetapplyadvanced" : "应用 ControlNet (高级)",
-      "add_node.controlnetloader" : "加载 ControlNet 模型",
-      "add_node.controlnet_preprocessors" : "ControlNet 预处理器",
-      "add_node.controlnet_preprocessors.faces_and_poses_estimators" : "人脸 & 姿势检测器",
-      "add_node.controlnet_preprocessors.line_extractors" : "线条提取器",
-      "add_node.controlnet_preprocessors.others" : "其他",
-      "add_node.controlnet_preprocessors.semantic_segmentation" : "语义分割",
-      "add_node.convert_masks_to_images" : "将蒙版转换为图像",
-      "add_node.create_grid_image" : "创建图像网格",
-      "add_node.create_grid_image_from_batch" : "按以批次创建图像网格",
-      "add_node.debugprint" : "调试输出",
-      "add_node.diffcontrolnetloader" : "加载 ControlNet 模型 (Diffusers)",
-      "add_node.diffusers_hub_model_down-loader" : "Diffusers 模型下载",
-      "add_node.diffusersloader" : "Diffusers 加载器",
-      "add_node.diffusers_model_loader" : "Diffusers 模型加载器",
-      "add_node.dualcliploader" : "双 CLIP 加载器",
-      "add_node.dwpreprocessor" : "DWPose 预处理器",
-      "add_node.efficiency_nodes" : "高效节点",
-      "add_node.efficiency_nodes.image" : "图像",
-      "add_node.efficiency_nodes.loaders" : "加载器",
-      "add_node.efficiency_nodes.sampling" : "采样器",
-      "add_node.efficiency_nodes.scripts" : "脚本",
-      "add_node.efficient_loader" : "高效加载器",
-      "add_node.eff._loader_sdxl" : "高效加载器 SDXL",
-      "add_node.emptyimage" : "空白图像",
-      "add_node.emptylatentimage" : "空白潜空间图像",
-      "add_node.emptymotiondata" : "空白运动数据",
-      "add_node.export_api" : "导出 API",
-      "add_node.facedetailer" : "面部细化",
-      "add_node.facedetailerpipe" : "面部细化 (pipe)",
-      "add_node.feathermask" : "羽化蒙版",
-      "add_node.float" : "浮点数",
-      "add_node.font" : "字体",
-      "add_node.for_testing" : "测试",
-      "add_node.gradientimage" : "渐变图像",
-      "add_node.highres-fix_script" : "高清修复脚本",
-      "add_node.hypernetworkloader" : "超网络加载器",
-      "add_node.if_any_execute_a_else_b" : "条件判断",
-      "add_node.image" : "图像",
-      "add_node.image_analyze" : "图像分析",
-      "add_node.image.animation" : "动画",
-      "add_node.image.batch" : "批处理",
-      "add_node.image_blank" : "空白图像",
-      "add_node.image_blend" : "图像融合",
-      "add_node.image_high_pass_filter" : "图像高通滤波器",
-      "add_node.imageinvert" : "反转图像",
-      "add_node.image.postprocessing" : "后期处理",
-      "add_node.image.preprocessors" : "预处理器",
-      "add_node.image_rembg_(remove_background)" : "删除图像背景 (Rembg)",
-      "add_node.image_remove_background_(alpha)" : "删除图像背景 (测试)",
-      "add_node.image_remove_color" : "图像黑白化",
-      "add_node.image_resize" : "图片缩放",
-      "add_node.image_rotate" : "图片旋转",
-      "add_node.image_save" : "保存图片",
-      "add_node.imagesender" : "发送图片",
-      "add_node.image_shadows_and_highlights" : "图片阴影和高光",
-      "add_node.imagestoragereset" : "重置图片存储",
-      "add_node.image_threshold" : "图像阈值",
-      "add_node.image_tiled" : "图像分块",
-      "add_node.image_to_latent_mask" : "将图像转换为潜空间蒙版",
-      "add_node.imagetomask" : "将图像转换为蒙版",
-      "add_node.image_to_seed" : "将图像转换为种子",
-      "add_node.image.upscaling" : "放大",
-      "add_node.impactpack.__for_test" : "测试",
-      "add_node.impactpack.__for_testing" : "测试",
-      "add_node.impactpack.logic" : "逻辑",
-      "add_node.impactpack.logic._for_test" : "测试用",
-      "add_node.impactpack.operation" : "操作",
-      "add_node.impactpack.pipe" : "管道",
-      "add_node.impactpack.prompt" : "提示词",
-      "add_node.impactpack.regional" : "分区",
-      "add_node.impactpack.sampler" : "采样器",
-      "add_node.impactpack.util" : "工具",
-      "add_node.inspirepack.a1111_compat" : "A1111 兼容",
-      "add_node.inspirepack.backend" : "后端",
-      "add_node.inspirepack.__for_testing" : "测试用",
-      "add_node.inspirepack.image" : "图像",
-      "add_node.inspirepack.prompt" : "提示词",
-      "add_node.inspirepack.util" : "工具",
-      "add_node.int" : "整数",
-      "add_node.ksampler" : "Karras 类采样器",
-      "add_node.ksampleradvanced" : "高级 Karras 类采样器",
-      "add_node.ksampleradvanced_..inspire" : "高级 Karras 类采样器 (Inspire)",
-      "add_node.ksampleradvancedpipe_..inspire" : "高级 Karras 类采样器 [管道] (Inspire)",
-      "add_node.ksampler_(efficient)" : "Karras 类采样器 (Efficient)",
-      "add_node.ksampler_..inspire" : "Karras 类采样器 (Inspire)",
-      "add_node.ksamplerpipe_..inspire" : "Karras 类采样器 [] (Inspire)",
-      "add_node.latent" : "潜空间",
-      "add_node.latent.advanced" : "高级",
-      "add_node.latent.inpaint" : "重绘",
-      "add_node.latentupscale" : "潜空间图像放大 (按尺寸)",
-      "add_node.latentupscaleby" : "潜空间图像放大 (按比例)",
-      "add_node.load_cache" : "加载缓存",
-      "add_node.loaders" : "加载器",
-      "add_node.loaders.video_models" : "视频模型",
-      "add_node.loadimage" : "加载图像",
-      "add_node.load_image_batch" : "批量加载图像",
-      "add_node.loadimage_..inspire" : "加载图像 (Inspire)",
-      "add_node.loadimagelistfromdir_..inspire" : "从目录加载图像列表 (Inspire)",
-      "add_node.loadimagemask" : "加载图像 (用于蒙版)",
-      "add_node.loadimagesfromdir_..inspire" : "批量从目录加载图像列表 (Inspire)",
-      "add_node.loadimagesfrompath" : "从路径加载图像",
-      "add_node.loadimagesfromurl" : "从 URL 加载图像",
-      "add_node.load_lora" : "加载 LoRA",
-      "add_node.logic" : "逻辑",
-      "add_node.lora_loader" : "Lora 加载器",
-      "add_node.loraloader" : "加载 LoRA",
-      "add_node.loraloaderblockweight_..inspire" : "加载 LoRA (分块权重)",
-      "add_node.loraloadermodelonly" : "LoRA 加载器 (仅 U-Net)",
-      "add_node.loraloader|pysssss" : "Lora 加载器 \uD83D\uDC0D",
-      "add_node.mask" : "蒙版",
-      "add_node.️mixlab.image" : "图像",
-      "add_node.️mixlab.__test" : "测试",
-      "add_node.motioncliptextencode" : "MotionCLIP 编码文本",
-      "add_node.motiondiffloader" : "MotionDiff 加载器",
-      "add_node.motiondiffsimplesampler" : "MotionDiff 简易采样器",
-      "add_node.note" : "笔记",
-      "add_node.previewimage" : "预览图像",
-      "add_node.previewjson" : "预览 JSON",
-      "add_node.primitivenode" : "基元",
-      "add_node.sam_model_loader" : "SAM 模型加载器",
-      "add_node.sampling" : "采样器",
-      "add_node.sampling.custom_sampling" : "自定义采样器",
-      "add_node.sampling.video_models" : "用于视频模型",
-      "add_node.saveimage" : "保存图像",
-      "add_node.savejson" : "保存 JSON",
-      "add_node.string" : "字符串",
-      "add_node.text_to_number" : "文本转数字",
-      "add_node.texttonumber" : "文本转数字",
-      "add_node.text_to_string" : "文本转字符串",
-      "add_node.upscalemodelloader" : "加载放大模型",
-      "add_node.utils" : "工具",
-      "add_node.vaedecode" : "VAE 解码",
-      "add_node.vaedecodetiled" : "VAE 解码 (分块)",
-      "add_node.vaeencode" : "VAE 编码",
-      "add_node.vaeencodetiled" : "VAE 编码 (分块)",
-      "add_node.vaeloader" : "加载 VAE",
-      "add_node.was_suite.animation" : "动画",
-      "add_node.was_suite.conditioning" : "调节",
-      "add_node.was_suite.debug" : "调试",
-      "add_node.was_suite.history" : "历史",
-      "add_node.was_suite.image" : "图像",
-      "add_node.was_suite.integer" : "整数",
-      "add_node.was_suite.latent" : "潜空间",
-      "add_node.was_suite.loaders" : "加载器",
-      "add_node.was_suite.loaders.advanced" : "高级",
-      "add_node.was_suite.logic" : "逻辑",
-      "add_node.was_suite.number" : "数字",
-      "add_node.was_suite.sampling" : "采样",
-      "add_node.was_suite.text" : "文本",
-      "add_node.was_suite.utilities" : "工具",
-      "add_selected_nodes_to_group" : "添加选中的节点到节点组",
-      "convert_to_group_node" : "转换为一体化节点",
-      "edit_group" : "编辑节点分组",
-      "edit_group.color" : "颜色",
-      "edit_group.font_size" : "字体大小",
-      "edit_group.lock" : "锁定",
-      "edit_group.remove" : "移除",
-      "edit_group.title" : "标题",
-      "fit_group_to_nodes" : "调整组到节点大小",
-      "go_to_node" : "转到节点",
-      "go_to_node.animatediffloaderv1" : "AnimateDiff 加载器 v1",
-      "go_to_node.cliptextencode" : "CLIP 文本编码器",
-      "go_to_node.loraloader" : "Lora 加载器",
-      "go_to_node.loraloader|pysssss" : "Lora 加载器|pysssss",
-      "go_to_node.primitivenode" : "基元节点",
-      "manage_group_nodes" : "管理一体化节点",
-      "node_templates" : "节点模板",
-      "node_templates.manage" : "管理",
-      "save_selected_as_template" : "将所选内容保存为模板",
-      "select_nodes" : "选择组内节点"
-    },
-    "node_menu" : {
-      "common" : {
-        "clone" : "创建副本",
-        "collapse" : "折叠",
-        "colors" : "颜色",
-        "convert_to_group_node" : "合并为一体化节点",
-        "help_️mixlab" : "查看帮助文档 ♾️Mixlab",
-        "inputs" : "输入",
-        "mode" : "运行模式",
-        "mode.always" : "总是运行",
-        "mode.never" : "从不运行",
-        "outputs" : "输出",
-        "properties" : "属性",
-        "properties_panel" : "属性面板",
-        "remove" : "移除",
-        "resize" : "改变大小",
-        "shapes" : "形状",
-        "title" : "标题"
-      },
-      "extra_menu" : {
-        "add_2nd_pass" : "添加二次处理",
-        "add_blank_input" : "添加空白输入",
-        "add_hi-res_fix" : "添加高清修复",
-        "add_save_image" : "添加保存图像",
-        "collapse" : "折叠",
-        "colors" : "颜色",
-        "convert_to_group_node" : "转换为一体化节点",
-        "convert_to_nodes" : "分离为单独节点",
-        "fix_node_(recreate)" : "修复节点 (重新创建)",
-        "help_️mixlab" : "查看帮助文档 ♾️Mixlab",
-        "inputs" : "输入",
-        "lock" : "锁定",
-        "manage_group_node" : "管理一体化节点",
-        "outputs" : "输出",
-        "pin" : "固定位置",
-        "properties" : "属性",
-        "properties_panel" : "属性面板",
-        "resize" : "调整至合适尺寸",
-        "shapes" : "形状",
-        "️_share_output" : "\uD83C\uDFDE️ 分享输出结果",
-        "swap_width" : {
-          "height" : "对调 宽度/高度"
-        },
-        "title" : "自定义标题",
-        "unlock" : "解锁",
-        "use_vae" : "使用 VAE",
-        "view_info" : {
-          "" : {
-            "" : "查看信息..."
-          }
-        }
-      },
-      "widgetinputs" : {
-        "convert_to_input" : "将 {slot} 转换到输入端",
-        "convert_to_widget" : "将 {slot} 转换到设置项"
-      }
-    },
-    "slot_menu" : {
-      "disconnect_links" : "断开连接",
-      "rename_slot" : "重命名接口"
-    }
-  },
-  "node" : {
-    "advanced" : {
-      "conditioning" : {
-        "cliptextencodesdxl" : {
-          "input" : {
-            "clip" : {
-              "name" : "CLIP"
-            },
-            "crop_h" : {
-              "name" : "裁切高度"
-            },
-            "crop_w" : {
-              "name" : "裁切宽度"
-            },
-            "height" : {
-              "name" : "高度"
-            },
-            "target_height" : {
-              "name" : "目标高度"
-            },
-            "target_width" : {
-              "name" : "目标宽度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "cliptextencodesdxlrefiner" : {
-          "input" : {
-            "clip" : {
-              "name" : "CLIP"
-            },
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "conditioningsettimesteprange" : {
-          "input" : {
-            "conditioning" : {
-              "name" : "调节"
-            },
-            "end" : {
-              "name" : "终止点"
-            },
-            "start" : {
-              "name" : "起始点"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "conditioningzeroout" : {
-          "input" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        }
-      },
-      "loaders" : {
-        "checkpointloader" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            },
-            "config_name" : {
-              "name" : "配置文件名称"
-            }
-          },
-          "output" : {
-            "model" : {
-              "name" : "U-Net"
-            }
-          }
-        },
-        "cliploader" : {
-          "input" : {
-            "clip_name" : {
-              "name" : "CLIP 模型名称"
-            }
-          },
-          "title" : "加载 CLIP"
-        },
-        "deprecated" : {
-          "diffusersloader" : {
-            "input" : {
-              "model_path" : {
-                "name" : "模型路径"
-              }
-            },
-            "output" : {
-              "model" : {
-                "name" : "U-Net"
-              }
-            }
-          }
-        },
-        "dualcliploader" : {
-          "input" : {
-            "clip_name1" : {
-              "name" : "CLIP 模型 1 名称"
-            },
-            "clip_name2" : {
-              "name" : "CLIP 模型 2 名称"
-            }
-          }
-        },
-        "unetloader" : {
-          "input" : {
-            "unet_name" : {
-              "name" : "U-Net 模型名称"
-            }
-          },
-          "output" : {
-            "model" : {
-              "name" : "U-Net"
-            }
-          },
-          "title" : "U-Net 加载器"
-        }
-      },
-      "model_merging" : {
-        "checkpointsave" : {
-          "input" : {
-            "clip" : {
-              "name" : "CLIP"
-            },
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "model" : {
-              "name" : "U-Net"
-            },
-            "vae" : {
-              "name" : "VAE"
-            }
-          },
-          "title" : "存储模型"
-        },
-        "clipmergesimple" : {
-          "input" : {
-            "clip1" : {
-              "name" : "CLIP 模型 1"
-            },
-            "clip2" : {
-              "name" : "CLIP 模型 2"
-            },
-            "ratio" : {
-              "name" : "比率"
-            }
-          }
-        },
-        "clipsave" : {
-          "input" : {
-            "clip" : {
-              "name" : "CLIP"
-            },
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            }
-          }
-        },
-        "modelmergeadd" : {
-          "input" : {
-            "model1" : {
-              "name" : "模型 1"
-            },
-            "model2" : {
-              "name" : "模型 2"
-            }
-          },
-          "output" : {
-            "model" : {
-              "name" : " 模型"
-            }
-          }
-        },
-        "modelmergeblocks" : {
-          "input" : {
-            "input" : {
-              "name" : "输入层"
-            },
-            "middle" : {
-              "name" : "中间层"
-            },
-            "model1" : {
-              "name" : "模型 1"
-            },
-            "model2" : {
-              "name" : "模型 2"
-            },
-            "out" : {
-              "name" : "输出层"
-            }
-          }
-        },
-        "modelmergesimple" : {
-          "input" : {
-            "model1" : {
-              "name" : "模型 1"
-            },
-            "model2" : {
-              "name" : "模型 2"
-            },
-            "ratio" : {
-              "name" : "比率"
-            }
-          }
-        },
-        "modelmergesubtract" : {
-          "input" : {
-            "model1" : {
-              "name" : "模型 1"
-            },
-            "model2" : {
-              "name" : "模型 2"
-            },
-            "multiplier" : {
-              "name" : "倍率"
-            }
-          }
-        },
-        "vaesave" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            }
-          }
-        }
-      }
-    },
-    "animate_diff" : {
-      "ade_animatediffloaderwithcontext" : {
-        "input" : {
-          "model_name" : {
-            "name" : "模型名称"
-          }
-        }
-      },
-      "ade_animatediffloraloader" : {
-        "input" : {
-          "lora_name" : {
-            "name" : "LoRA 名称"
-          },
-          "strength" : {
-            "name" : "强度"
-          }
-        }
-      }
-    },
-    "animate_diff_" : {
-      "deprecated_(do_not_use)" : {
-        "ade_animatediffcombine" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "ade_animatediffloaderv1advanced" : {
-          "input" : {
-            "model_name" : {
-              "name" : "模型名称"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "animatediffloaderv1" : {
-          "input" : {
-            "model_name" : {
-              "name" : "模型名称"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "extras" : {
-        "ade_emptylatentimagelarge" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          },
-          "title" : "空白潜空间图像 (大批量) \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53"
-        },
-        "checkpointloadersimplewithnoiseselect" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        }
-      }
-    },
-    "comfyui-frame-interpolation" : {
-      "others" : {
-        "ksampler_gradually_adding_more_denoise_(efficient)" : {
-          "input" : {
-            "latent_image" : {
-              "name" : "潜空间图像"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "vfi" : {
-        "amt_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "cain_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "film_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "flavr_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "gmfss_fortuna_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "ifrnet_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "ifunet_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "m2m_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "rife_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "sepconv_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        },
-        "stmfnet_vfi" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        }
-      }
-    },
-    "conditioning" : {
-      "3d_models" : {
-        "stablezero123_conditioning_batched" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "stablezero123_conditioning" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        }
-      },
-      "advanced" : {
-        "bnk_addclipsdxlparams" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "target_height" : {
-              "name" : "目标高度"
-            },
-            "target_width" : {
-              "name" : "目标宽度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "bnk_addclipsdxlrparams" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "bnk_cliptextencodeadvanced" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          },
-          "title" : "CLIP 编码文本 (高级)"
-        },
-        "bnk_cliptextencodesdxladvanced" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          },
-          "title" : "CLIP 编码文本 (SDXL) (高级)"
-        }
-      },
-      "cliptextencode" : {
-        "input" : {
-          "text" : {
-            "name" : "文本"
-          }
-        },
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        },
-        "title" : "CLIP 文本编码 (提示词)"
-      },
-      "conditioningaverage" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "conditioningcombine" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "conditioningconcat" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "conditioningsetarea" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        },
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "conditioningsetareapercentage" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        },
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "conditioningsetmask" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "controlnetapply" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "gligen" : {
-        "gligentextboxapply" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        }
-      },
-      "style_model" : {
-        "stylemodelapply" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        }
-      },
-      "unclipconditioning" : {
-        "output" : {
-          "conditioning" : {
-            "name" : "调节"
-          }
-        }
-      },
-      "upscale_diffusion" : {
-        "sd_4xupscale_conditioning" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "video_models" : {
-        "svd_img2vid_conditioning" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        }
-      }
-    },
-    "for_testing" : {
-      "latentblend" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "loadlatent" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "savelatent" : {
-        "input" : {
-          "filename_prefix" : {
-            "name" : "文件名前缀"
-          }
-        }
-      },
-      "vaeencodetiled" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      }
-    },
-    "image" : {
-      "animation" : {
-        "saveanimatedpng" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "saveanimatedwebp" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "batch" : {
-        "rebatchimages" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "constrainimageforvideo|pysssss" : {
-        "input" : {
-          "images" : {
-            "name" : "图像"
-          },
-          "max_height" : {
-            "name" : "最大高度"
-          },
-          "max_width" : {
-            "name" : "最大宽度"
-          },
-          "min_height" : {
-            "name" : "最小高度"
-          },
-          "min_width" : {
-            "name" : "最小宽度"
-          }
-        }
-      },
-      "constrainimage|pysssss" : {
-        "input" : {
-          "images" : {
-            "name" : "图像"
-          },
-          "max_height" : {
-            "name" : "最大高度"
-          },
-          "max_width" : {
-            "name" : "最大宽度"
-          },
-          "min_height" : {
-            "name" : "最小高度"
-          },
-          "min_width" : {
-            "name" : "最小宽度"
-          }
-        }
-      },
-      "emptyimage" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        }
-      },
-      "postprocessing" : {
-        "vividsharpen" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "previewimage" : {
-        "input" : {
-          "images" : {
-            "name" : "图像"
-          }
-        }
-      },
-      "saveimage" : {
-        "input" : {
-          "filename_prefix" : {
-            "name" : "文件名前缀"
-          },
-          "images" : {
-            "name" : "图像"
-          }
-        },
-        "main_context" : {
-          "_title" : "保存图像"
-        },
-        "slot_context" : {
-          "image" : {
-            "_title" : "图像"
-          }
-        },
-        "title" : "保存图像"
-      },
-      "transform" : {
-        "imagecrop" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "main_context" : {
-            "_title" : "裁剪图像"
-          }
-        }
-      },
-      "upscaling" : {
-        "imagescale" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        }
-      }
-    },
-    "impactpack" : {
-      "__for_testing" : {
-        "impactconcatconditionings" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "impactmaketilesegs" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "logic" : {
-        "_for_test" : {
-          "impactimageinfo" : {
-            "output" : {
-              "height" : {
-                "name" : "高度"
-              },
-              "width" : {
-                "name" : "宽度"
-              }
-            }
-          },
-          "impactlatentinfo" : {
-            "output" : {
-              "height" : {
-                "name" : "高度"
-              },
-              "width" : {
-                "name" : "宽度"
-              }
-            }
-          }
-        }
-      },
-      "operation" : {
-        "imagelisttoimagebatch" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "prompt" : {
-        "impactwildcardencode" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        }
-      },
-      "regional" : {
-        "regionalsampleradvanced" : {
-          "input" : {
-            "latent_image" : {
-              "name" : "潜空间图像"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "regionalsampler" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "sampler" : {
-        "tiledksamplerprovider" : {
-          "input" : {
-            "tile_height" : {
-              "name" : "分块高度"
-            },
-            "tile_width" : {
-              "name" : "分块宽度"
-            }
-          }
-        },
-        "twoadvancedsamplersformask" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "twosamplersformask" : {
-          "input" : {
-            "latent_image" : {
-              "name" : "潜空间图像"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "upscale" : {
-        "iterativelatentupscale" : {
-          "output" : {
-            "vae" : {
-              "name" : "VAE"
-            }
-          }
-        },
-        "latentpixelscale" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "pixeltiledksampleupscalerprovider" : {
-          "input" : {
-            "tile_height" : {
-              "name" : "分块高度"
-            },
-            "tile_width" : {
-              "name" : "分块宽度"
-            }
-          }
-        },
-        "pixeltiledksampleupscalerproviderpipe" : {
-          "input" : {
-            "tile_height" : {
-              "name" : "分块高度"
-            },
-            "tile_width" : {
-              "name" : "分块宽度"
-            }
-          }
-        }
-      },
-      "util" : {
-        "imagebatchsplitter_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "images" : {
-                  "name" : "图像"
-                }
-              }
-            }
-          }
-        },
-        "imagemaskswitch" : {
-          "input" : {
-            "images1" : {
-              "name" : "图像 1"
-            },
-            "images2_opt" : {
-              "name" : "图像 2 (可选)"
-            },
-            "images3_opt" : {
-              "name" : "图像 3 (可选)"
-            },
-            "images4_opt" : {
-              "name" : "图像 4 (可选)"
-            }
-          }
-        },
-        "imagesender" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "impactcombineconditionings" : {
-          "output" : {
-            "conditioning" : {
-              "name" : "调节"
-            }
-          }
-        },
-        "latentbatchsplitter_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "latent" : {
-                  "name" : "潜空间图片"
-                }
-              }
-            }
-          }
-        },
-        "latentreceiver" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentsender" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            }
-          }
-        },
-        "previewbridge" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "previewbridgelatent" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "reencodelatent" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "reencodelatentpipe" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "removenoisemask" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      }
-    },
-    "inspirepack" : {
-      "a1111_compat" : {
-        "ksampleradvanced_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              },
-              "output" : {
-                "latent" : {
-                  "name" : "潜空间图片"
-                }
-              }
-            }
-          }
-        },
-        "ksampleradvancedpipe_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              },
-              "output" : {
-                "latent" : {
-                  "name" : "潜空间图片"
-                }
-              }
-            }
-          }
-        },
-        "ksampler_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              },
-              "output" : {
-                "latent" : {
-                  "name" : "潜空间图片"
-                }
-              }
-            }
-          }
-        },
-        "ksamplerpipe_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              },
-              "output" : {
-                "latent" : {
-                  "name" : "潜空间图片"
-                }
-              }
-            }
-          }
-        }
-      },
-      "analysis" : {
-        "ksampleradvancedprogress_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              }
-            }
-          }
-        },
-        "ksamplerprogress_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "latent_image" : {
-                  "name" : "潜空间图像"
-                }
-              }
-            }
-          }
-        }
-      },
-      "backend" : {
-        "checkpointloadersimpleshared_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "ckpt_name" : {
-                  "name" : "模型名称"
-                }
-              }
-            }
-          }
-        }
-      },
-      "__for_testing" : {
-        "concatconditioningswithmultiplier_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "conditioning" : {
-                  "name" : "调节"
-                }
-              }
-            }
-          }
-        }
-      },
-      "lorablockweight" : {
-        "loraloaderblockweight_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "clip" : {
-                  "name" : "CLIP"
-                },
-                "inverse" : {
-                  "name" : "反转"
-                },
-                "lora_name" : {
-                  "name" : "LoRA 名称"
-                },
-                "model" : {
-                  "name" : "U-Net"
-                },
-                "preset" : {
-                  "name" : "预设"
-                },
-                "seed" : {
-                  "name" : "随机种子"
-                },
-                "strength_clip" : {
-                  "name" : "CLIP 强度"
-                },
-                "strength_model" : {
-                  "name" : "U-Net 强度"
-                }
-              },
-              "output" : {
-                "clip" : {
-                  "name" : "CLIP"
-                },
-                "model" : {
-                  "name" : "U-Net"
-                }
-              },
-              "title" : "加载 LoRA (分块权重)"
-            }
-          }
-        }
-      },
-      "prompt" : {
-        "bindimagelistpromptlist_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "images" : {
-                  "name" : "图像"
-                }
-              }
-            }
-          }
-        },
-        "makebasicpipe_" : {
-          "" : {
-            "inspire" : {
-              "input" : {
-                "ckpt_name" : {
-                  "name" : "模型名称"
-                }
-              }
-            }
-          }
-        },
-        "wildcardencode_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "conditioning" : {
-                  "name" : "调节"
-                }
-              }
-            }
-          }
-        }
-      },
-      "regional" : {
-        "regionalconditioningcolormask_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "conditioning" : {
-                  "name" : "调节"
-                }
-              }
-            }
-          }
-        },
-        "regionalconditioningsimple_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "conditioning" : {
-                  "name" : "调节"
-                }
-              }
-            }
-          }
-        }
-      },
-      "util" : {
-        "cliptextencodewithweight_" : {
-          "" : {
-            "inspire" : {
-              "output" : {
-                "conditioning" : {
-                  "name" : "调节"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "latent" : {
-      "advanced" : {
-        "latentadd" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentinterpolate" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentmultiply" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentsubtract" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "batch" : {
-        "latentbatch" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentfrombatch" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "rebatchlatents" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "repeatlatentbatch" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "emptylatentimage" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "LATENT"
-          }
-        },
-        "title" : "空白潜空间图像"
-      },
-      "inpaint" : {
-        "setlatentnoisemask" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "vaeencodeforinpaint" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "latentcompositemasked" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "latentcomposite" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "latentupscaleby" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        },
-        "title" : "潜空间图像放大 (按比例)"
-      },
-      "latentupscale" : {
-        "input" : {
-          "crop" : {
-            "name" : "裁切方法"
-          },
-          "height" : {
-            "name" : "高度"
-          },
-          "upscale_method" : {
-            "name" : "放大方法"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        },
-        "main_context" : {
-          "_title" : "潜空间图像放大"
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        },
-        "title" : "潜空间图像放大 (按尺寸)"
-      },
-      "transform" : {
-        "latentcrop" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          },
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentflip" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        },
-        "latentrotate" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      },
-      "vaedecode" : {
-        "input" : {
-          "samples" : {
-            "name" : "潜空间图片采样"
-          },
-          "vae" : {
-            "name" : "VAE"
-          }
-        },
-        "main_context" : {
-          "_title" : "VAE 解码"
-        },
-        "output" : {
-          "image" : {
-            "name" : "图像"
-          }
-        },
-        "slot_context" : {
-          "image" : {
-            "_title" : "图像"
-          }
-        },
-        "title" : "VAE 解码"
-      },
-      "vaeencode" : {
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      }
-    },
-    "loaders" : {
-      "checkpointloader|pysssss" : {
-        "input" : {
-          "ckpt_name" : {
-            "name" : "模型名称"
-          }
-        }
-      },
-      "checkpointloadersimple" : {
-        "input" : {
-          "ckpt_name" : {
-            "name" : "模型名称"
-          }
-        },
-        "output" : {
-          "model" : {
-            "name" : "U-Net"
-          },
-          "vae" : {
-            "name" : "VAE"
-          }
-        },
-        "slot_context" : {
-          "model" : {
-            "_title" : "U-Net 模型"
-          }
-        },
-        "title" : "加载模型"
-      },
-      "loraloader" : {
-        "input" : {
-          "clip" : {
-            "name" : "CLIP"
-          },
-          "lora_name" : {
-            "name" : "LoRA 名称"
-          },
-          "model" : {
-            "name" : "U-Net"
-          },
-          "strength_clip" : {
-            "name" : "CLIP 强度"
-          },
-          "strength_model" : {
-            "name" : "U-Net 强度"
-          }
-        },
-        "output" : {
-          "clip" : {
-            "name" : "CLIP"
-          },
-          "model" : {
-            "name" : "U-Net"
-          }
-        },
-        "title" : "加载 LoRA"
-      },
-      "loraloadermodelonly" : {
-        "input" : {
-          "lora_name" : {
-            "name" : "LoRA 名称"
-          },
-          "model" : {
-            "name" : "U-Net"
-          },
-          "strength_model" : {
-            "name" : "U-Net 强度"
-          }
-        },
-        "output" : {
-          "model" : {
-            "name" : "U-Net"
-          }
-        },
-        "title" : "LoRA 加载器 (仅 U-Net)"
-      },
-      "loraloader|pysssss" : {
-        "input" : {
-          "clip" : {
-            "name" : "CLIP"
-          },
-          "lora_name" : {
-            "name" : "LoRA 名称"
-          },
-          "model" : {
-            "name" : "U-Net"
-          },
-          "strength_clip" : {
-            "name" : "CLIP 强度"
-          },
-          "strength_model" : {
-            "name" : "U-Net 强度"
-          }
-        },
-        "output" : {
-          "clip" : {
-            "name" : "CLIP"
-          },
-          "model" : {
-            "name" : "U-Net"
-          }
-        },
-        "title" : "Lora 加载器 \uD83D\uDC0D"
-      },
-      "unclipcheckpointloader" : {
-        "input" : {
-          "ckpt_name" : {
-            "name" : "模型名称"
-          }
-        }
-      },
-      "upscalemodelloader" : {
-        "input" : {
-          "model_name" : {
-            "name" : "模型名称"
-          }
-        },
-        "main_context" : {
-          "_title" : "放大模型加载器"
-        },
-        "slot_context" : {
-          "upscale_model" : {
-            "_title" : "放大模型"
-          }
-        },
-        "title" : "加载放大模型"
-      },
-      "video_models" : {
-        "imageonlycheckpointloader" : {
-          "input" : {
-            "ckpt_name" : {
-              "name" : "模型名称"
-            }
-          }
-        }
-      }
-    },
-    "loopchain" : {
-      "emptylatentimageloop" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "storage" : {
-        "latentstorageexportloop" : {
-          "output" : {
-            "latent" : {
-              "name" : "潜空间图片"
-            }
-          }
-        }
-      }
-    },
-    "mask" : {
-      "cropmask" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        }
-      },
-      "solidmask" : {
-        "input" : {
-          "height" : {
-            "name" : "高度"
-          },
-          "width" : {
-            "name" : "宽度"
-          }
-        }
-      }
-    },
-    "️mixlab" : {
-      "image" : {
-        "floatingvideo" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "getimagesize_" : {
-          "output" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "gradientimage" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "imagecropbyalpha" : {
-          "output" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "noiseimage" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "resizeimagemixlab" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "transparentimage" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            },
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      },
-      "layer" : {
-        "mergelayers" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        },
-        "newlayer" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        },
-        "showlayer" : {
-          "input" : {
-            "height" : {
-              "name" : "高度"
-            },
-            "width" : {
-              "name" : "宽度"
-            }
-          }
-        }
-      },
-      "mask" : {
-        "outlinemask" : {
-          "input" : {
-            "outline_width" : {
-              "name" : "描边宽度"
-            }
-          }
-        }
-      },
-      "prompt" : {
-        "promptimage" : {
-          "input" : {
-            "images" : {
-              "name" : "图像"
-            }
-          }
-        }
-      }
-    },
-    "motiondiff" : {
-      "motioncliptextencode" : {
-        "title" : "MotionCLIP 编码文本"
-      },
-      "smpl" : {
-        "savesmpl" : {
-          "input" : {
-            "filename_prefix" : {
-              "name" : "文件名前缀"
-            }
-          }
-        }
-      }
-    },
-    "sampling" : {
-      "custom_sampling" : {
-        "samplercustom" : {
-          "input" : {
-            "latent_image" : {
-              "name" : "潜空间图像"
-            }
-          }
-        }
-      },
-      "impactksampleradvancedbasicpipe" : {
-        "input" : {
-          "latent_image" : {
-            "name" : "潜空间图像"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "impactksamplerbasicpipe" : {
-        "input" : {
-          "latent_image" : {
-            "name" : "潜空间图像"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "ksampleradvanced" : {
-        "input" : {
-          "latent_image" : {
-            "name" : "潜空间图像"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      },
-      "ksampler" : {
-        "input" : {
-          "denoise" : {
-            "name" : "去噪"
-          },
-          "latent_image" : {
-            "name" : "潜空间图像"
-          },
-          "negative" : {
-            "name" : "反向调节"
-          },
-          "positive" : {
-            "name" : "正向调节"
-          },
-          "sampler_name" : {
-            "name" : "采样器"
-          },
-          "scheduler" : {
-            "name" : "调度器"
-          },
-          "seed" : {
-            "name" : "随机种子"
-          },
-          "steps" : {
-            "name" : "迭代步数"
-          }
-        },
-        "main_context" : {
-          "_title" : "Karras 类采样器"
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        },
-        "slot_context" : {
-          "conditioning" : {
-            "_title" : "调节"
-          },
-          "model" : {
-            "_title" : "模型"
-          }
-        },
-        "title" : "Karras 类采样器"
-      },
-      "ksamplerseq2" : {
-        "input" : {
-          "latent_image" : {
-            "name" : "潜空间图像"
-          }
-        },
-        "output" : {
-          "latent" : {
-            "name" : "潜空间图片"
-          }
-        }
-      }
-    },
-    "tests" : {
-      "stablezero123" : {
-        "input" : {
-          "ckpt_name" : {
-            "name" : "模型名称"
-          },
-          "images" : {
-            "name" : "图像"
-          }
-        }
-      }
-    },
-    "utils" : {
-      "primitivenode" : {
-        "input" : {
-          "value" : {
-            "name" : "值"
-          }
-        },
-        "main_context" : {
-          "_title" : "基元节点"
-        },
-        "output" : {
-          "combo" : {
-            "name" : "组合"
-          },
-          "connect_to_widget_input" : {
-            "name" : "连接到输入部件"
-          }
-        },
-        "title" : "基元"
-      }
-    },
-    "was_suite" : {
-      "image" : {
-        "image_batch" : {
-          "input" : {
-            "images_a" : {
-              "name" : "图像 A"
-            },
-            "images_b" : {
-              "name" : "图像 B"
-            },
-            "images_c" : {
-              "name" : "图像 C"
-            },
-            "images_d" : {
-              "name" : "图像 D"
-            }
-          }
-        }
-      }
-    }
-  },
-  "ui" : {
-    "sidebar" : {
-      "batch_count" : "批次数量",
-      "clear_button" : "清空",
-      "extra_options" : "额外选项",
-      "load_button" : "加载",
-      "load_default_button" : "恢复默认",
-      "queue_button" : "加入队列",
-      "queue_front_button" : "插队",
-      "refresh_button" : "刷新",
-      "save_api_button" : "保存 (API 格式)",
-      "save_button" : "保存",
-      "view_history_button" : "查看历史记录",
-      "view_queue_button" : "查看队列内容"
-    }
-  }
+  "context.canvas_menu.add_group" : "创建节点分组",
+  "context.canvas_menu.add_node" : "添加节点",
+  "context.canvas_menu.add_node.ade_animatediffloaderv1advanced" : "AnimateDiff 加载器 (高级) [已弃用] \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.ade_animatediffloaderwithcontext" : "AnimateDiff 加载器 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.ade_animatediffloraloader" : "AnimateDiff LoRA 加载器 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.ade_animatediffsamplingsettings" : "采样设置 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.ade_animatediffuniformcontextoptions" : "统一上下文选项 \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.ade_emptylatentimagelarge" : "空白潜空间图像 (大批量) \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.advanced" : "高级",
+  "context.canvas_menu.add_node.advanced.conditioning" : "调节",
+  "context.canvas_menu.add_node.advanced.loaders" : "加载器",
+  "context.canvas_menu.add_node.advanced.loaders.deprecated" : "已弃用",
+  "context.canvas_menu.add_node.advanced.model" : "模型",
+  "context.canvas_menu.add_node.advanced.model_merging" : "模型合并",
+  "context.canvas_menu.add_node.animate_diff_" : "Animate Diff \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.animate_diff_.deprecated_(do_not_use)" : "已弃用 (请勿使用)",
+  "context.canvas_menu.add_node.animate_diff_.extras" : "其他",
+  "context.canvas_menu.add_node.animatediffloaderv1" : "AnimateDiff 加载器 [已弃用] \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "context.canvas_menu.add_node.animatediff_script" : "AnimateDiff 脚本",
+  "context.canvas_menu.add_node.basicscheduler" : "基础调度器",
+  "context.canvas_menu.add_node.binarypreprocessor" : "黑白线条",
+  "context.canvas_menu.add_node.blip_analyze_image" : "BLIP 图像分析",
+  "context.canvas_menu.add_node.blip_model_loader" : "BLIP 模型加载器",
+  "context.canvas_menu.add_node.bnk_addclipsdxlparams" : "添加 CLIP SDXL 参数",
+  "context.canvas_menu.add_node.bnk_addclipsdxlrparams" : "添加 CLIP SDXL Refiner 参数",
+  "context.canvas_menu.add_node.bnk_cliptextencodeadvanced" : "CLIP 编码文本 (高级)",
+  "context.canvas_menu.add_node.bnk_cliptextencodesdxladvanced" : "CLIP 编码文本 (SDXL) (高级)",
+  "context.canvas_menu.add_node.bool" : "布尔",
+  "context.canvas_menu.add_node.bus_node" : "总线节点",
+  "context.canvas_menu.add_node.cachebackenddata_..inspire" : "缓存后端数据 (Inspire)",
+  "context.canvas_menu.add_node.cachebackenddatalist_..inspire" : "缓存后端数据列表 (Inspire)",
+  "context.canvas_menu.add_node.cachebackenddatanumberkey_..inspire" : "缓存后端数据 [数字键] (Inspire)",
+  "context.canvas_menu.add_node.cachebackenddatanumberkeylist_..inspire" : "缓存后端数据列表 [数字键] (Inspire)",
+  "context.canvas_menu.add_node.cache_node" : "缓存节点",
+  "context.canvas_menu.add_node.cannyedgepreprocessor" : "Canny 边缘检测",
+  "context.canvas_menu.add_node.cdtuner" : "应用 CDTuner",
+  "context.canvas_menu.add_node.checkpoint_loader" : "模型加载器",
+  "context.canvas_menu.add_node.checkpointloader" : "使用配置文件加载模型 (已弃用)",
+  "context.canvas_menu.add_node.checkpointloader|pysssss" : "模型加载器 \uD83D\uDC0D",
+  "context.canvas_menu.add_node.checkpoint_loader_(simple)" : "模型加载器 (简易)",
+  "context.canvas_menu.add_node.checkpointloadersimple" : "加载 Checkpoint",
+  "context.canvas_menu.add_node.checkpointloadersimpleshared_..inspire" : "共享模型加载器 (Inspire)",
+  "context.canvas_menu.add_node.checkpointsave" : "存储模型",
+  "context.canvas_menu.add_node.chineseprompt_mix" : "中文提示词 ♾️Mixlab",
+  "context.canvas_menu.add_node.cliploader" : "加载 CLIP",
+  "context.canvas_menu.add_node.clipsave" : "保存 CLIP",
+  "context.canvas_menu.add_node.clipseg_batch_masking" : "CLIPSeg 批量蒙版",
+  "context.canvas_menu.add_node.clipseg_model_loader" : "CLIPSeg 模型加载器",
+  "context.canvas_menu.add_node.clipsetlastlayer" : "CLIP 提前终止层",
+  "context.canvas_menu.add_node.cliptextencode" : "CLIP 编码文本 (提示词)",
+  "context.canvas_menu.add_node.cliptextencodelist" : "CLIP 编码文本序列 (高级)",
+  "context.canvas_menu.add_node.cliptextencode_(nsp)" : "CLIP 编码文本 (NSP)",
+  "context.canvas_menu.add_node.cliptextencodesdxl" : "CLIP 编码文本 (SDXL)",
+  "context.canvas_menu.add_node.cliptextencodesdxlrefiner" : "CLIP 编码文本 (SDXL Refiner)",
+  "context.canvas_menu.add_node.cliptextencodesequence2" : "CLIP 编码文本序列 (v2)",
+  "context.canvas_menu.add_node.cliptextencodewithweight_..inspire" : "CLIP 编码带权重文字 (Inspire)",
+  "context.canvas_menu.add_node.clipvisionencode" : "CLIP 编码图片",
+  "context.canvas_menu.add_node.clipvisionloader" : "加载 CLIP Vision",
+  "context.canvas_menu.add_node.color" : "颜色",
+  "context.canvas_menu.add_node.comfyui-frame-interpolation" : "ComfyUI 插帧",
+  "context.canvas_menu.add_node.comfyui-frame-interpolation.others" : "其他",
+  "context.canvas_menu.add_node.comfyui-frame-interpolation.vfi" : "视频插帧",
+  "context.canvas_menu.add_node.compare" : "比较",
+  "context.canvas_menu.add_node.conditioning" : "调节",
+  "context.canvas_menu.add_node.conditioning.3d_models" : "3D 模型",
+  "context.canvas_menu.add_node.conditioning.advanced" : "高级",
+  "context.canvas_menu.add_node.conditioningblend" : "调节 (混合)",
+  "context.canvas_menu.add_node.conditioningcombine" : "调节 (组合)",
+  "context.canvas_menu.add_node.conditioningconcat" : "调节 (连接)",
+  "context.canvas_menu.add_node.conditioning.inpaint" : "重绘",
+  "context.canvas_menu.add_node.conditioning.upscale_diffusion" : "扩散放大",
+  "context.canvas_menu.add_node.conditioning.video_models" : "视频模型",
+  "context.canvas_menu.add_node.controlnetapply" : "应用 ControlNet",
+  "context.canvas_menu.add_node.controlnetapplyadvanced" : "应用 ControlNet (高级)",
+  "context.canvas_menu.add_node.controlnetloader" : "加载 ControlNet 模型",
+  "context.canvas_menu.add_node.controlnet_preprocessors" : "ControlNet 预处理器",
+  "context.canvas_menu.add_node.controlnet_preprocessors.faces_and_poses_estimators" : "人脸 & 姿势检测器",
+  "context.canvas_menu.add_node.controlnet_preprocessors.line_extractors" : "线条提取器",
+  "context.canvas_menu.add_node.controlnet_preprocessors.others" : "其他",
+  "context.canvas_menu.add_node.controlnet_preprocessors.semantic_segmentation" : "语义分割",
+  "context.canvas_menu.add_node.convert_masks_to_images" : "将蒙版转换为图像",
+  "context.canvas_menu.add_node.create_grid_image" : "创建图像网格",
+  "context.canvas_menu.add_node.create_grid_image_from_batch" : "按以批次创建图像网格",
+  "context.canvas_menu.add_node.debugprint" : "调试输出",
+  "context.canvas_menu.add_node.diffcontrolnetloader" : "加载 ControlNet 模型 (Diffusers)",
+  "context.canvas_menu.add_node.diffusers_hub_model_down-loader" : "Diffusers 模型下载",
+  "context.canvas_menu.add_node.diffusersloader" : "Diffusers 加载器",
+  "context.canvas_menu.add_node.diffusers_model_loader" : "Diffusers 模型加载器",
+  "context.canvas_menu.add_node.dualcliploader" : "双 CLIP 加载器",
+  "context.canvas_menu.add_node.dwpreprocessor" : "DWPose 预处理器",
+  "context.canvas_menu.add_node.efficiency_nodes" : "高效节点",
+  "context.canvas_menu.add_node.efficiency_nodes.image" : "图像",
+  "context.canvas_menu.add_node.efficiency_nodes.loaders" : "加载器",
+  "context.canvas_menu.add_node.efficiency_nodes.sampling" : "采样器",
+  "context.canvas_menu.add_node.efficiency_nodes.scripts" : "脚本",
+  "context.canvas_menu.add_node.efficient_loader" : "高效加载器",
+  "context.canvas_menu.add_node.eff._loader_sdxl" : "高效加载器 SDXL",
+  "context.canvas_menu.add_node.emptyimage" : "空白图像",
+  "context.canvas_menu.add_node.emptylatentimage" : "空白潜空间图像",
+  "context.canvas_menu.add_node.emptymotiondata" : "空白运动数据",
+  "context.canvas_menu.add_node.export_api" : "导出 API",
+  "context.canvas_menu.add_node.facedetailer" : "面部细化",
+  "context.canvas_menu.add_node.facedetailerpipe" : "面部细化 (pipe)",
+  "context.canvas_menu.add_node.feathermask" : "羽化蒙版",
+  "context.canvas_menu.add_node.float" : "浮点数",
+  "context.canvas_menu.add_node.font" : "字体",
+  "context.canvas_menu.add_node.for_testing" : "测试",
+  "context.canvas_menu.add_node.gradientimage" : "渐变图像",
+  "context.canvas_menu.add_node.highres-fix_script" : "高清修复脚本",
+  "context.canvas_menu.add_node.hypernetworkloader" : "超网络加载器",
+  "context.canvas_menu.add_node.if_any_execute_a_else_b" : "条件判断",
+  "context.canvas_menu.add_node.image" : "图像",
+  "context.canvas_menu.add_node.image_analyze" : "图像分析",
+  "context.canvas_menu.add_node.image.animation" : "动画",
+  "context.canvas_menu.add_node.image.batch" : "批处理",
+  "context.canvas_menu.add_node.image_blank" : "空白图像",
+  "context.canvas_menu.add_node.image_blend" : "图像融合",
+  "context.canvas_menu.add_node.image_high_pass_filter" : "图像高通滤波器",
+  "context.canvas_menu.add_node.imageinvert" : "反转图像",
+  "context.canvas_menu.add_node.image.postprocessing" : "后期处理",
+  "context.canvas_menu.add_node.image.preprocessors" : "预处理器",
+  "context.canvas_menu.add_node.image_rembg_(remove_background)" : "删除图像背景 (Rembg)",
+  "context.canvas_menu.add_node.image_remove_background_(alpha)" : "删除图像背景 (测试)",
+  "context.canvas_menu.add_node.image_remove_color" : "图像黑白化",
+  "context.canvas_menu.add_node.image_resize" : "图片缩放",
+  "context.canvas_menu.add_node.image_rotate" : "图片旋转",
+  "context.canvas_menu.add_node.image_save" : "保存图片",
+  "context.canvas_menu.add_node.imagesender" : "发送图片",
+  "context.canvas_menu.add_node.image_shadows_and_highlights" : "图片阴影和高光",
+  "context.canvas_menu.add_node.imagestoragereset" : "重置图片存储",
+  "context.canvas_menu.add_node.image_threshold" : "图像阈值",
+  "context.canvas_menu.add_node.image_tiled" : "图像分块",
+  "context.canvas_menu.add_node.image_to_latent_mask" : "将图像转换为潜空间蒙版",
+  "context.canvas_menu.add_node.imagetomask" : "将图像转换为蒙版",
+  "context.canvas_menu.add_node.image_to_seed" : "将图像转换为种子",
+  "context.canvas_menu.add_node.image.upscaling" : "放大",
+  "context.canvas_menu.add_node.impactpack.__for_test" : "测试",
+  "context.canvas_menu.add_node.impactpack.__for_testing" : "测试",
+  "context.canvas_menu.add_node.impactpack.logic" : "逻辑",
+  "context.canvas_menu.add_node.impactpack.logic._for_test" : "测试用",
+  "context.canvas_menu.add_node.impactpack.operation" : "操作",
+  "context.canvas_menu.add_node.impactpack.pipe" : "管道",
+  "context.canvas_menu.add_node.impactpack.prompt" : "提示词",
+  "context.canvas_menu.add_node.impactpack.regional" : "分区",
+  "context.canvas_menu.add_node.impactpack.sampler" : "采样器",
+  "context.canvas_menu.add_node.impactpack.util" : "工具",
+  "context.canvas_menu.add_node.inspirepack.a1111_compat" : "A1111 兼容",
+  "context.canvas_menu.add_node.inspirepack.backend" : "后端",
+  "context.canvas_menu.add_node.inspirepack.__for_testing" : "测试用",
+  "context.canvas_menu.add_node.inspirepack.image" : "图像",
+  "context.canvas_menu.add_node.inspirepack.prompt" : "提示词",
+  "context.canvas_menu.add_node.inspirepack.util" : "工具",
+  "context.canvas_menu.add_node.int" : "整数",
+  "context.canvas_menu.add_node.ksampler" : "Karras 类采样器",
+  "context.canvas_menu.add_node.ksampleradvanced" : "高级 Karras 类采样器",
+  "context.canvas_menu.add_node.ksampleradvanced_..inspire" : "高级 Karras 类采样器 (Inspire)",
+  "context.canvas_menu.add_node.ksampleradvancedpipe_..inspire" : "高级 Karras 类采样器 [管道] (Inspire)",
+  "context.canvas_menu.add_node.ksampler_(efficient)" : "Karras 类采样器 (Efficient)",
+  "context.canvas_menu.add_node.ksampler_..inspire" : "Karras 类采样器 (Inspire)",
+  "context.canvas_menu.add_node.ksamplerpipe_..inspire" : "Karras 类采样器 [] (Inspire)",
+  "context.canvas_menu.add_node.latent" : "潜空间",
+  "context.canvas_menu.add_node.latent.advanced" : "高级",
+  "context.canvas_menu.add_node.latent.inpaint" : "重绘",
+  "context.canvas_menu.add_node.latentupscale" : "潜空间图像放大 (按尺寸)",
+  "context.canvas_menu.add_node.latentupscaleby" : "潜空间图像放大 (按比例)",
+  "context.canvas_menu.add_node.load_cache" : "加载缓存",
+  "context.canvas_menu.add_node.loaders" : "加载器",
+  "context.canvas_menu.add_node.loaders.video_models" : "视频模型",
+  "context.canvas_menu.add_node.loadimage" : "加载图像",
+  "context.canvas_menu.add_node.load_image_batch" : "批量加载图像",
+  "context.canvas_menu.add_node.loadimage_..inspire" : "加载图像 (Inspire)",
+  "context.canvas_menu.add_node.loadimagelistfromdir_..inspire" : "从目录加载图像列表 (Inspire)",
+  "context.canvas_menu.add_node.loadimagemask" : "加载图像 (用于蒙版)",
+  "context.canvas_menu.add_node.loadimagesfromdir_..inspire" : "批量从目录加载图像列表 (Inspire)",
+  "context.canvas_menu.add_node.loadimagesfrompath" : "从路径加载图像",
+  "context.canvas_menu.add_node.loadimagesfromurl" : "从 URL 加载图像",
+  "context.canvas_menu.add_node.load_lora" : "加载 LoRA",
+  "context.canvas_menu.add_node.logic" : "逻辑",
+  "context.canvas_menu.add_node.lora_loader" : "Lora 加载器",
+  "context.canvas_menu.add_node.loraloader" : "加载 LoRA",
+  "context.canvas_menu.add_node.loraloaderblockweight_..inspire" : "加载 LoRA (分块权重)",
+  "context.canvas_menu.add_node.loraloadermodelonly" : "LoRA 加载器 (仅 U-Net)",
+  "context.canvas_menu.add_node.loraloader|pysssss" : "Lora 加载器 \uD83D\uDC0D",
+  "context.canvas_menu.add_node.mask" : "蒙版",
+  "context.canvas_menu.add_node.️mixlab.image" : "图像",
+  "context.canvas_menu.add_node.️mixlab.__test" : "测试",
+  "context.canvas_menu.add_node.motioncliptextencode" : "MotionCLIP 编码文本",
+  "context.canvas_menu.add_node.motiondiffloader" : "MotionDiff 加载器",
+  "context.canvas_menu.add_node.motiondiffsimplesampler" : "MotionDiff 简易采样器",
+  "context.canvas_menu.add_node.note" : "笔记",
+  "context.canvas_menu.add_node.previewimage" : "预览图像",
+  "context.canvas_menu.add_node.previewjson" : "预览 JSON",
+  "context.canvas_menu.add_node.primitivenode" : "基元",
+  "context.canvas_menu.add_node.sam_model_loader" : "SAM 模型加载器",
+  "context.canvas_menu.add_node.sampling" : "采样器",
+  "context.canvas_menu.add_node.sampling.custom_sampling" : "自定义采样器",
+  "context.canvas_menu.add_node.sampling.video_models" : "用于视频模型",
+  "context.canvas_menu.add_node.saveimage" : "保存图像",
+  "context.canvas_menu.add_node.savejson" : "保存 JSON",
+  "context.canvas_menu.add_node.string" : "字符串",
+  "context.canvas_menu.add_node.text_to_number" : "文本转数字",
+  "context.canvas_menu.add_node.texttonumber" : "文本转数字",
+  "context.canvas_menu.add_node.text_to_string" : "文本转字符串",
+  "context.canvas_menu.add_node.upscalemodelloader" : "加载放大模型",
+  "context.canvas_menu.add_node.utils" : "工具",
+  "context.canvas_menu.add_node.vaedecode" : "VAE 解码",
+  "context.canvas_menu.add_node.vaedecodetiled" : "VAE 解码 (分块)",
+  "context.canvas_menu.add_node.vaeencode" : "VAE 编码",
+  "context.canvas_menu.add_node.vaeencodetiled" : "VAE 编码 (分块)",
+  "context.canvas_menu.add_node.vaeloader" : "加载 VAE",
+  "context.canvas_menu.add_node.was_suite.animation" : "动画",
+  "context.canvas_menu.add_node.was_suite.conditioning" : "调节",
+  "context.canvas_menu.add_node.was_suite.debug" : "调试",
+  "context.canvas_menu.add_node.was_suite.history" : "历史",
+  "context.canvas_menu.add_node.was_suite.image" : "图像",
+  "context.canvas_menu.add_node.was_suite.integer" : "整数",
+  "context.canvas_menu.add_node.was_suite.latent" : "潜空间",
+  "context.canvas_menu.add_node.was_suite.loaders" : "加载器",
+  "context.canvas_menu.add_node.was_suite.loaders.advanced" : "高级",
+  "context.canvas_menu.add_node.was_suite.logic" : "逻辑",
+  "context.canvas_menu.add_node.was_suite.number" : "数字",
+  "context.canvas_menu.add_node.was_suite.sampling" : "采样",
+  "context.canvas_menu.add_node.was_suite.text" : "文本",
+  "context.canvas_menu.add_node.was_suite.utilities" : "工具",
+  "context.canvas_menu.add_selected_nodes_to_group" : "添加选中的节点到节点组",
+  "context.canvas_menu.convert_to_group_node" : "转换为一体化节点",
+  "context.canvas_menu.edit_group" : "编辑节点分组",
+  "context.canvas_menu.edit_group.color" : "颜色",
+  "context.canvas_menu.edit_group.font_size" : "字体大小",
+  "context.canvas_menu.edit_group.lock" : "锁定",
+  "context.canvas_menu.edit_group.remove" : "移除",
+  "context.canvas_menu.edit_group.title" : "标题",
+  "context.canvas_menu.fit_group_to_nodes" : "调整组到节点大小",
+  "context.canvas_menu.go_to_node" : "转到节点",
+  "context.canvas_menu.go_to_node.animatediffloaderv1" : "AnimateDiff 加载器 v1",
+  "context.canvas_menu.go_to_node.cliptextencode" : "CLIP 文本编码器",
+  "context.canvas_menu.go_to_node.loraloader" : "Lora 加载器",
+  "context.canvas_menu.go_to_node.loraloader|pysssss" : "Lora 加载器|pysssss",
+  "context.canvas_menu.go_to_node.primitivenode" : "基元节点",
+  "context.canvas_menu.manage_group_nodes" : "管理一体化节点",
+  "context.canvas_menu.node_templates" : "节点模板",
+  "context.canvas_menu.node_templates.manage" : "管理",
+  "context.canvas_menu.save_selected_as_template" : "将所选内容保存为模板",
+  "context.canvas_menu.select_nodes" : "选择组内节点",
+  "context.node_menu.common.clone" : "创建副本",
+  "context.node_menu.common.collapse" : "折叠",
+  "context.node_menu.common.colors" : "颜色",
+  "context.node_menu.common.convert_to_group_node" : "合并为一体化节点",
+  "context.node_menu.common.help_️mixlab" : "查看帮助文档 ♾️Mixlab",
+  "context.node_menu.common.inputs" : "输入",
+  "context.node_menu.common.mode" : "运行模式",
+  "context.node_menu.common.mode.always" : "总是运行",
+  "context.node_menu.common.mode.never" : "从不运行",
+  "context.node_menu.common.outputs" : "输出",
+  "context.node_menu.common.properties" : "属性",
+  "context.node_menu.common.properties_panel" : "属性面板",
+  "context.node_menu.common.remove" : "移除",
+  "context.node_menu.common.resize" : "改变大小",
+  "context.node_menu.common.shapes" : "形状",
+  "context.node_menu.common.title" : "标题",
+  "context.node_menu.extra_menu.add_2nd_pass" : "添加二次处理",
+  "context.node_menu.extra_menu.add_blank_input" : "添加空白输入",
+  "context.node_menu.extra_menu.add_hi-res_fix" : "添加高清修复",
+  "context.node_menu.extra_menu.add_save_image" : "添加保存图像",
+  "context.node_menu.extra_menu.collapse" : "折叠",
+  "context.node_menu.extra_menu.colors" : "颜色",
+  "context.node_menu.extra_menu.convert_to_group_node" : "转换为一体化节点",
+  "context.node_menu.extra_menu.convert_to_nodes" : "分离为单独节点",
+  "context.node_menu.extra_menu.fix_node_(recreate)" : "修复节点 (重新创建)",
+  "context.node_menu.extra_menu.help_️mixlab" : "查看帮助文档 ♾️Mixlab",
+  "context.node_menu.extra_menu.inputs" : "输入",
+  "context.node_menu.extra_menu.lock" : "锁定",
+  "context.node_menu.extra_menu.manage_group_node" : "管理一体化节点",
+  "context.node_menu.extra_menu.outputs" : "输出",
+  "context.node_menu.extra_menu.pin" : "固定位置",
+  "context.node_menu.extra_menu.properties" : "属性",
+  "context.node_menu.extra_menu.properties_panel" : "属性面板",
+  "context.node_menu.extra_menu.resize" : "调整至合适尺寸",
+  "context.node_menu.extra_menu.shapes" : "形状",
+  "context.node_menu.extra_menu.️_share_output" : "\uD83C\uDFDE️ 分享输出结果",
+  "context.node_menu.extra_menu.swap_width.height" : "对调 宽度/高度",
+  "context.node_menu.extra_menu.title" : "自定义标题",
+  "context.node_menu.extra_menu.unlock" : "解锁",
+  "context.node_menu.extra_menu.use_vae" : "使用 VAE",
+  "context.node_menu.extra_menu.view_info.." : "查看信息...",
+  "context.node_menu.widgetinputs.convert_to_input" : "将 {slot} 转换到输入端",
+  "context.node_menu.widgetinputs.convert_to_widget" : "将 {slot} 转换到设置项",
+  "context.slot_menu.disconnect_links" : "断开连接",
+  "context.slot_menu.rename_slot" : "重命名接口",
+  "node.advanced.conditioning.cliptextencodesdxl.input.clip.name" : "CLIP",
+  "node.advanced.conditioning.cliptextencodesdxl.input.crop_h.name" : "裁切高度",
+  "node.advanced.conditioning.cliptextencodesdxl.input.crop_w.name" : "裁切宽度",
+  "node.advanced.conditioning.cliptextencodesdxl.input.height.name" : "高度",
+  "node.advanced.conditioning.cliptextencodesdxl.input.target_height.name" : "目标高度",
+  "node.advanced.conditioning.cliptextencodesdxl.input.target_width.name" : "目标宽度",
+  "node.advanced.conditioning.cliptextencodesdxl.input.width.name" : "宽度",
+  "node.advanced.conditioning.cliptextencodesdxl.output.conditioning.name" : "调节",
+  "node.advanced.conditioning.cliptextencodesdxlrefiner.input.clip.name" : "CLIP",
+  "node.advanced.conditioning.cliptextencodesdxlrefiner.input.height.name" : "高度",
+  "node.advanced.conditioning.cliptextencodesdxlrefiner.input.width.name" : "宽度",
+  "node.advanced.conditioning.cliptextencodesdxlrefiner.output.conditioning.name" : "调节",
+  "node.advanced.conditioning.conditioningsettimesteprange.input.conditioning.name" : "调节",
+  "node.advanced.conditioning.conditioningsettimesteprange.input.end.name" : "终止点",
+  "node.advanced.conditioning.conditioningsettimesteprange.input.start.name" : "起始点",
+  "node.advanced.conditioning.conditioningsettimesteprange.output.conditioning.name" : "调节",
+  "node.advanced.conditioning.conditioningzeroout.input.conditioning.name" : "调节",
+  "node.advanced.conditioning.conditioningzeroout.output.conditioning.name" : "调节",
+  "node.advanced.loaders.checkpointloader.input.ckpt_name.name" : "模型名称",
+  "node.advanced.loaders.checkpointloader.input.config_name.name" : "配置文件名称",
+  "node.advanced.loaders.checkpointloader.output.model.name" : "U-Net",
+  "node.advanced.loaders.cliploader.input.clip_name.name" : "CLIP 模型名称",
+  "node.advanced.loaders.cliploader.title" : "加载 CLIP",
+  "node.advanced.loaders.deprecated.diffusersloader.input.model_path.name" : "模型路径",
+  "node.advanced.loaders.deprecated.diffusersloader.output.model.name" : "U-Net",
+  "node.advanced.loaders.dualcliploader.input.clip_name1.name" : "CLIP 模型 1 名称",
+  "node.advanced.loaders.dualcliploader.input.clip_name2.name" : "CLIP 模型 2 名称",
+  "node.advanced.loaders.unetloader.input.unet_name.name" : "U-Net 模型名称",
+  "node.advanced.loaders.unetloader.output.model.name" : "U-Net",
+  "node.advanced.loaders.unetloader.title" : "U-Net 加载器",
+  "node.advanced.model_merging.checkpointsave.input.clip.name" : "CLIP",
+  "node.advanced.model_merging.checkpointsave.input.filename_prefix.name" : "文件名前缀",
+  "node.advanced.model_merging.checkpointsave.input.model.name" : "U-Net",
+  "node.advanced.model_merging.checkpointsave.input.vae.name" : "VAE",
+  "node.advanced.model_merging.checkpointsave.title" : "存储模型",
+  "node.advanced.model_merging.clipmergesimple.input.clip1.name" : "CLIP 模型 1",
+  "node.advanced.model_merging.clipmergesimple.input.clip2.name" : "CLIP 模型 2",
+  "node.advanced.model_merging.clipmergesimple.input.ratio.name" : "比率",
+  "node.advanced.model_merging.clipsave.input.clip.name" : "CLIP",
+  "node.advanced.model_merging.clipsave.input.filename_prefix.name" : "文件名前缀",
+  "node.advanced.model_merging.modelmergeadd.input.model1.name" : "模型 1",
+  "node.advanced.model_merging.modelmergeadd.input.model2.name" : "模型 2",
+  "node.advanced.model_merging.modelmergeadd.output.model.name" : " 模型",
+  "node.advanced.model_merging.modelmergeblocks.input.input.name" : "输入层",
+  "node.advanced.model_merging.modelmergeblocks.input.middle.name" : "中间层",
+  "node.advanced.model_merging.modelmergeblocks.input.model1.name" : "模型 1",
+  "node.advanced.model_merging.modelmergeblocks.input.model2.name" : "模型 2",
+  "node.advanced.model_merging.modelmergeblocks.input.out.name" : "输出层",
+  "node.advanced.model_merging.modelmergesimple.input.model1.name" : "模型 1",
+  "node.advanced.model_merging.modelmergesimple.input.model2.name" : "模型 2",
+  "node.advanced.model_merging.modelmergesimple.input.ratio.name" : "比率",
+  "node.advanced.model_merging.modelmergesubtract.input.model1.name" : "模型 1",
+  "node.advanced.model_merging.modelmergesubtract.input.model2.name" : "模型 2",
+  "node.advanced.model_merging.modelmergesubtract.input.multiplier.name" : "倍率",
+  "node.advanced.model_merging.vaesave.input.filename_prefix.name" : "文件名前缀",
+  "node.animate_diff.ade_animatediffloaderwithcontext.input.model_name.name" : "模型名称",
+  "node.animate_diff.ade_animatediffloraloader.input.lora_name.name" : "LoRA 名称",
+  "node.animate_diff.ade_animatediffloraloader.input.strength.name" : "强度",
+  "node.animate_diff_.deprecated_(do_not_use).ade_animatediffcombine.input.filename_prefix.name" : "文件名前缀",
+  "node.animate_diff_.deprecated_(do_not_use).ade_animatediffcombine.input.images.name" : "图像",
+  "node.animate_diff_.deprecated_(do_not_use).ade_animatediffloaderv1advanced.input.model_name.name" : "模型名称",
+  "node.animate_diff_.deprecated_(do_not_use).ade_animatediffloaderv1advanced.output.latent.name" : "潜空间图片",
+  "node.animate_diff_.deprecated_(do_not_use).animatediffloaderv1.input.model_name.name" : "模型名称",
+  "node.animate_diff_.deprecated_(do_not_use).animatediffloaderv1.output.latent.name" : "潜空间图片",
+  "node.animate_diff_.extras.ade_emptylatentimagelarge.input.height.name" : "高度",
+  "node.animate_diff_.extras.ade_emptylatentimagelarge.input.width.name" : "宽度",
+  "node.animate_diff_.extras.ade_emptylatentimagelarge.output.latent.name" : "潜空间图片",
+  "node.animate_diff_.extras.ade_emptylatentimagelarge.title" : "空白潜空间图像 (大批量) \uD83C\uDFAD\uD83C\uDD50\uD83C\uDD53",
+  "node.animate_diff_.extras.checkpointloadersimplewithnoiseselect.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.others.ksampler_gradually_adding_more_denoise_(efficient).input.latent_image.name" : "潜空间图像",
+  "node.comfyui-frame-interpolation.others.ksampler_gradually_adding_more_denoise_(efficient).output.latent.name" : "潜空间图片",
+  "node.comfyui-frame-interpolation.vfi.amt_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.cain_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.film_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.flavr_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.gmfss_fortuna_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.ifrnet_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.ifunet_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.m2m_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.rife_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.sepconv_vfi.input.ckpt_name.name" : "模型名称",
+  "node.comfyui-frame-interpolation.vfi.stmfnet_vfi.input.ckpt_name.name" : "模型名称",
+  "node.conditioning.3d_models.stablezero123_conditioning_batched.input.height.name" : "高度",
+  "node.conditioning.3d_models.stablezero123_conditioning_batched.input.width.name" : "宽度",
+  "node.conditioning.3d_models.stablezero123_conditioning.input.height.name" : "高度",
+  "node.conditioning.3d_models.stablezero123_conditioning.input.width.name" : "宽度",
+  "node.conditioning.advanced.bnk_addclipsdxlparams.input.height.name" : "高度",
+  "node.conditioning.advanced.bnk_addclipsdxlparams.input.target_height.name" : "目标高度",
+  "node.conditioning.advanced.bnk_addclipsdxlparams.input.target_width.name" : "目标宽度",
+  "node.conditioning.advanced.bnk_addclipsdxlparams.input.width.name" : "宽度",
+  "node.conditioning.advanced.bnk_addclipsdxlparams.output.conditioning.name" : "调节",
+  "node.conditioning.advanced.bnk_addclipsdxlrparams.input.height.name" : "高度",
+  "node.conditioning.advanced.bnk_addclipsdxlrparams.input.width.name" : "宽度",
+  "node.conditioning.advanced.bnk_addclipsdxlrparams.output.conditioning.name" : "调节",
+  "node.conditioning.advanced.bnk_cliptextencodeadvanced.output.conditioning.name" : "调节",
+  "node.conditioning.advanced.bnk_cliptextencodeadvanced.title" : "CLIP 编码文本 (高级)",
+  "node.conditioning.advanced.bnk_cliptextencodesdxladvanced.output.conditioning.name" : "调节",
+  "node.conditioning.advanced.bnk_cliptextencodesdxladvanced.title" : "CLIP 编码文本 (SDXL) (高级)",
+  "node.conditioning.cliptextencode.input.text.name" : "文本",
+  "node.conditioning.cliptextencode.output.conditioning.name" : "调节",
+  "node.conditioning.cliptextencode.title" : "CLIP 文本编码 (提示词)",
+  "node.conditioning.conditioningaverage.output.conditioning.name" : "调节",
+  "node.conditioning.conditioningcombine.output.conditioning.name" : "调节",
+  "node.conditioning.conditioningconcat.output.conditioning.name" : "调节",
+  "node.conditioning.conditioningsetarea.input.height.name" : "高度",
+  "node.conditioning.conditioningsetarea.input.width.name" : "宽度",
+  "node.conditioning.conditioningsetarea.output.conditioning.name" : "调节",
+  "node.conditioning.conditioningsetareapercentage.input.height.name" : "高度",
+  "node.conditioning.conditioningsetareapercentage.input.width.name" : "宽度",
+  "node.conditioning.conditioningsetareapercentage.output.conditioning.name" : "调节",
+  "node.conditioning.conditioningsetmask.output.conditioning.name" : "调节",
+  "node.conditioning.controlnetapply.output.conditioning.name" : "调节",
+  "node.conditioning.gligen.gligentextboxapply.input.height.name" : "高度",
+  "node.conditioning.gligen.gligentextboxapply.input.width.name" : "宽度",
+  "node.conditioning.gligen.gligentextboxapply.output.conditioning.name" : "调节",
+  "node.conditioning.style_model.stylemodelapply.output.conditioning.name" : "调节",
+  "node.conditioning.unclipconditioning.output.conditioning.name" : "调节",
+  "node.conditioning.upscale_diffusion.sd_4xupscale_conditioning.input.images.name" : "图像",
+  "node.conditioning.video_models.svd_img2vid_conditioning.input.height.name" : "高度",
+  "node.conditioning.video_models.svd_img2vid_conditioning.input.width.name" : "宽度",
+  "node.for_testing.latentblend.output.latent.name" : "潜空间图片",
+  "node.for_testing.loadlatent.output.latent.name" : "潜空间图片",
+  "node.for_testing.savelatent.input.filename_prefix.name" : "文件名前缀",
+  "node.for_testing.vaeencodetiled.output.latent.name" : "潜空间图片",
+  "node.image.animation.saveanimatedpng.input.filename_prefix.name" : "文件名前缀",
+  "node.image.animation.saveanimatedpng.input.images.name" : "图像",
+  "node.image.animation.saveanimatedwebp.input.filename_prefix.name" : "文件名前缀",
+  "node.image.animation.saveanimatedwebp.input.images.name" : "图像",
+  "node.image.batch.rebatchimages.input.images.name" : "图像",
+  "node.image.constrainimageforvideo|pysssss.input.images.name" : "图像",
+  "node.image.constrainimageforvideo|pysssss.input.max_height.name" : "最大高度",
+  "node.image.constrainimageforvideo|pysssss.input.max_width.name" : "最大宽度",
+  "node.image.constrainimageforvideo|pysssss.input.min_height.name" : "最小高度",
+  "node.image.constrainimageforvideo|pysssss.input.min_width.name" : "最小宽度",
+  "node.image.constrainimage|pysssss.input.images.name" : "图像",
+  "node.image.constrainimage|pysssss.input.max_height.name" : "最大高度",
+  "node.image.constrainimage|pysssss.input.max_width.name" : "最大宽度",
+  "node.image.constrainimage|pysssss.input.min_height.name" : "最小高度",
+  "node.image.constrainimage|pysssss.input.min_width.name" : "最小宽度",
+  "node.image.emptyimage.input.height.name" : "高度",
+  "node.image.emptyimage.input.width.name" : "宽度",
+  "node.image.postprocessing.vividsharpen.input.images.name" : "图像",
+  "node.image.previewimage.input.images.name" : "图像",
+  "node.image.saveimage.input.filename_prefix.name" : "文件名前缀",
+  "node.image.saveimage.input.images.name" : "图像",
+  "node.image.saveimage.main_context._title" : "保存图像",
+  "node.image.saveimage.slot_context.image._title" : "图像",
+  "node.image.saveimage.title" : "保存图像",
+  "node.image.transform.imagecrop.input.height.name" : "高度",
+  "node.image.transform.imagecrop.input.width.name" : "宽度",
+  "node.image.transform.imagecrop.main_context._title" : "裁剪图像",
+  "node.image.upscaling.imagescale.input.height.name" : "高度",
+  "node.image.upscaling.imagescale.input.width.name" : "宽度",
+  "node.impactpack.__for_testing.impactconcatconditionings.output.conditioning.name" : "调节",
+  "node.impactpack.__for_testing.impactmaketilesegs.input.images.name" : "图像",
+  "node.impactpack.logic._for_test.impactimageinfo.output.height.name" : "高度",
+  "node.impactpack.logic._for_test.impactimageinfo.output.width.name" : "宽度",
+  "node.impactpack.logic._for_test.impactlatentinfo.output.height.name" : "高度",
+  "node.impactpack.logic._for_test.impactlatentinfo.output.width.name" : "宽度",
+  "node.impactpack.operation.imagelisttoimagebatch.input.images.name" : "图像",
+  "node.impactpack.prompt.impactwildcardencode.output.conditioning.name" : "调节",
+  "node.impactpack.regional.regionalsampleradvanced.input.latent_image.name" : "潜空间图像",
+  "node.impactpack.regional.regionalsampleradvanced.output.latent.name" : "潜空间图片",
+  "node.impactpack.regional.regionalsampler.output.latent.name" : "潜空间图片",
+  "node.impactpack.sampler.tiledksamplerprovider.input.tile_height.name" : "分块高度",
+  "node.impactpack.sampler.tiledksamplerprovider.input.tile_width.name" : "分块宽度",
+  "node.impactpack.sampler.twoadvancedsamplersformask.output.latent.name" : "潜空间图片",
+  "node.impactpack.sampler.twosamplersformask.input.latent_image.name" : "潜空间图像",
+  "node.impactpack.sampler.twosamplersformask.output.latent.name" : "潜空间图片",
+  "node.impactpack.upscale.iterativelatentupscale.output.vae.name" : "VAE",
+  "node.impactpack.upscale.latentpixelscale.output.latent.name" : "潜空间图片",
+  "node.impactpack.upscale.pixeltiledksampleupscalerprovider.input.tile_height.name" : "分块高度",
+  "node.impactpack.upscale.pixeltiledksampleupscalerprovider.input.tile_width.name" : "分块宽度",
+  "node.impactpack.upscale.pixeltiledksampleupscalerproviderpipe.input.tile_height.name" : "分块高度",
+  "node.impactpack.upscale.pixeltiledksampleupscalerproviderpipe.input.tile_width.name" : "分块宽度",
+  "node.impactpack.util.imagebatchsplitter_..inspire.input.images.name" : "图像",
+  "node.impactpack.util.imagemaskswitch.input.images1.name" : "图像 1",
+  "node.impactpack.util.imagemaskswitch.input.images2_opt.name" : "图像 2 (可选)",
+  "node.impactpack.util.imagemaskswitch.input.images3_opt.name" : "图像 3 (可选)",
+  "node.impactpack.util.imagemaskswitch.input.images4_opt.name" : "图像 4 (可选)",
+  "node.impactpack.util.imagesender.input.filename_prefix.name" : "文件名前缀",
+  "node.impactpack.util.imagesender.input.images.name" : "图像",
+  "node.impactpack.util.impactcombineconditionings.output.conditioning.name" : "调节",
+  "node.impactpack.util.latentbatchsplitter_..inspire.output.latent.name" : "潜空间图片",
+  "node.impactpack.util.latentreceiver.output.latent.name" : "潜空间图片",
+  "node.impactpack.util.latentsender.input.filename_prefix.name" : "文件名前缀",
+  "node.impactpack.util.previewbridge.input.images.name" : "图像",
+  "node.impactpack.util.previewbridgelatent.output.latent.name" : "潜空间图片",
+  "node.impactpack.util.reencodelatent.output.latent.name" : "潜空间图片",
+  "node.impactpack.util.reencodelatentpipe.output.latent.name" : "潜空间图片",
+  "node.impactpack.util.removenoisemask.output.latent.name" : "潜空间图片",
+  "node.inspirepack.a1111_compat.ksampleradvanced_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.a1111_compat.ksampleradvanced_..inspire.output.latent.name" : "潜空间图片",
+  "node.inspirepack.a1111_compat.ksampleradvancedpipe_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.a1111_compat.ksampleradvancedpipe_..inspire.output.latent.name" : "潜空间图片",
+  "node.inspirepack.a1111_compat.ksampler_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.a1111_compat.ksampler_..inspire.output.latent.name" : "潜空间图片",
+  "node.inspirepack.a1111_compat.ksamplerpipe_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.a1111_compat.ksamplerpipe_..inspire.output.latent.name" : "潜空间图片",
+  "node.inspirepack.analysis.ksampleradvancedprogress_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.analysis.ksamplerprogress_..inspire.input.latent_image.name" : "潜空间图像",
+  "node.inspirepack.backend.checkpointloadersimpleshared_..inspire.input.ckpt_name.name" : "模型名称",
+  "node.inspirepack.__for_testing.concatconditioningswithmultiplier_..inspire.output.conditioning.name" : "调节",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.clip.name" : "CLIP",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.inverse.name" : "反转",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.lora_name.name" : "LoRA 名称",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.model.name" : "U-Net",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.preset.name" : "预设",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.seed.name" : "随机种子",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.strength_clip.name" : "CLIP 强度",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.input.strength_model.name" : "U-Net 强度",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.output.clip.name" : "CLIP",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.output.model.name" : "U-Net",
+  "node.inspirepack.lorablockweight.loraloaderblockweight_..inspire.title" : "加载 LoRA (分块权重)",
+  "node.inspirepack.prompt.bindimagelistpromptlist_..inspire.input.images.name" : "图像",
+  "node.inspirepack.prompt.makebasicpipe_..inspire.input.ckpt_name.name" : "模型名称",
+  "node.inspirepack.prompt.wildcardencode_..inspire.output.conditioning.name" : "调节",
+  "node.inspirepack.regional.regionalconditioningcolormask_..inspire.output.conditioning.name" : "调节",
+  "node.inspirepack.regional.regionalconditioningsimple_..inspire.output.conditioning.name" : "调节",
+  "node.inspirepack.util.cliptextencodewithweight_..inspire.output.conditioning.name" : "调节",
+  "node.latent.advanced.latentadd.output.latent.name" : "潜空间图片",
+  "node.latent.advanced.latentinterpolate.output.latent.name" : "潜空间图片",
+  "node.latent.advanced.latentmultiply.output.latent.name" : "潜空间图片",
+  "node.latent.advanced.latentsubtract.output.latent.name" : "潜空间图片",
+  "node.latent.batch.latentbatch.output.latent.name" : "潜空间图片",
+  "node.latent.batch.latentfrombatch.output.latent.name" : "潜空间图片",
+  "node.latent.batch.rebatchlatents.output.latent.name" : "潜空间图片",
+  "node.latent.batch.repeatlatentbatch.output.latent.name" : "潜空间图片",
+  "node.latent.emptylatentimage.input.height.name" : "高度",
+  "node.latent.emptylatentimage.input.width.name" : "宽度",
+  "node.latent.emptylatentimage.output.latent.name" : "LATENT",
+  "node.latent.emptylatentimage.title" : "空白潜空间图像",
+  "node.latent.inpaint.setlatentnoisemask.output.latent.name" : "潜空间图片",
+  "node.latent.inpaint.vaeencodeforinpaint.output.latent.name" : "潜空间图片",
+  "node.latent.latentcompositemasked.output.latent.name" : "潜空间图片",
+  "node.latent.latentcomposite.output.latent.name" : "潜空间图片",
+  "node.latent.latentupscaleby.output.latent.name" : "潜空间图片",
+  "node.latent.latentupscaleby.title" : "潜空间图像放大 (按比例)",
+  "node.latent.latentupscale.input.crop.name" : "裁切方法",
+  "node.latent.latentupscale.input.height.name" : "高度",
+  "node.latent.latentupscale.input.upscale_method.name" : "放大方法",
+  "node.latent.latentupscale.input.width.name" : "宽度",
+  "node.latent.latentupscale.main_context._title" : "潜空间图像放大",
+  "node.latent.latentupscale.output.latent.name" : "潜空间图片",
+  "node.latent.latentupscale.title" : "潜空间图像放大 (按尺寸)",
+  "node.latent.transform.latentcrop.input.height.name" : "高度",
+  "node.latent.transform.latentcrop.input.width.name" : "宽度",
+  "node.latent.transform.latentcrop.output.latent.name" : "潜空间图片",
+  "node.latent.transform.latentflip.output.latent.name" : "潜空间图片",
+  "node.latent.transform.latentrotate.output.latent.name" : "潜空间图片",
+  "node.latent.vaedecode.input.samples.name" : "潜空间图片采样",
+  "node.latent.vaedecode.input.vae.name" : "VAE",
+  "node.latent.vaedecode.main_context._title" : "VAE 解码",
+  "node.latent.vaedecode.output.image.name" : "图像",
+  "node.latent.vaedecode.slot_context.image._title" : "图像",
+  "node.latent.vaedecode.title" : "VAE 解码",
+  "node.latent.vaeencode.output.latent.name" : "潜空间图片",
+  "node.loaders.checkpointloader|pysssss.input.ckpt_name.name" : "模型名称",
+  "node.loaders.checkpointloadersimple.input.ckpt_name.name" : "模型名称",
+  "node.loaders.checkpointloadersimple.output.model.name" : "U-Net",
+  "node.loaders.checkpointloadersimple.output.vae.name" : "VAE",
+  "node.loaders.checkpointloadersimple.slot_context.model._title" : "U-Net 模型",
+  "node.loaders.checkpointloadersimple.title" : "加载模型",
+  "node.loaders.loraloader.input.clip.name" : "CLIP",
+  "node.loaders.loraloader.input.lora_name.name" : "LoRA 名称",
+  "node.loaders.loraloader.input.model.name" : "U-Net",
+  "node.loaders.loraloader.input.strength_clip.name" : "CLIP 强度",
+  "node.loaders.loraloader.input.strength_model.name" : "U-Net 强度",
+  "node.loaders.loraloadermodelonly.input.lora_name.name" : "LoRA 名称",
+  "node.loaders.loraloadermodelonly.input.model.name" : "U-Net",
+  "node.loaders.loraloadermodelonly.input.strength_model.name" : "U-Net 强度",
+  "node.loaders.loraloadermodelonly.output.model.name" : "U-Net",
+  "node.loaders.loraloadermodelonly.title" : "LoRA 加载器 (仅 U-Net)",
+  "node.loaders.loraloader.output.clip.name" : "CLIP",
+  "node.loaders.loraloader.output.model.name" : "U-Net",
+  "node.loaders.loraloader|pysssss.input.clip.name" : "CLIP",
+  "node.loaders.loraloader|pysssss.input.lora_name.name" : "LoRA 名称",
+  "node.loaders.loraloader|pysssss.input.model.name" : "U-Net",
+  "node.loaders.loraloader|pysssss.input.strength_clip.name" : "CLIP 强度",
+  "node.loaders.loraloader|pysssss.input.strength_model.name" : "U-Net 强度",
+  "node.loaders.loraloader|pysssss.output.clip.name" : "CLIP",
+  "node.loaders.loraloader|pysssss.output.model.name" : "U-Net",
+  "node.loaders.loraloader|pysssss.title" : "Lora 加载器 \uD83D\uDC0D",
+  "node.loaders.loraloader.title" : "加载 LoRA",
+  "node.loaders.unclipcheckpointloader.input.ckpt_name.name" : "模型名称",
+  "node.loaders.upscalemodelloader.input.model_name.name" : "模型名称",
+  "node.loaders.upscalemodelloader.main_context._title" : "放大模型加载器",
+  "node.loaders.upscalemodelloader.slot_context.upscale_model._title" : "放大模型",
+  "node.loaders.upscalemodelloader.title" : "加载放大模型",
+  "node.loaders.video_models.imageonlycheckpointloader.input.ckpt_name.name" : "模型名称",
+  "node.loopchain.emptylatentimageloop.input.height.name" : "高度",
+  "node.loopchain.emptylatentimageloop.input.width.name" : "宽度",
+  "node.loopchain.emptylatentimageloop.output.latent.name" : "潜空间图片",
+  "node.loopchain.storage.latentstorageexportloop.output.latent.name" : "潜空间图片",
+  "node.mask.cropmask.input.height.name" : "高度",
+  "node.mask.cropmask.input.width.name" : "宽度",
+  "node.mask.solidmask.input.height.name" : "高度",
+  "node.mask.solidmask.input.width.name" : "宽度",
+  "node.️mixlab.image.floatingvideo.input.images.name" : "图像",
+  "node.️mixlab.image.getimagesize_.output.height.name" : "高度",
+  "node.️mixlab.image.getimagesize_.output.width.name" : "宽度",
+  "node.️mixlab.image.gradientimage.input.height.name" : "高度",
+  "node.️mixlab.image.gradientimage.input.width.name" : "宽度",
+  "node.️mixlab.image.imagecropbyalpha.output.height.name" : "高度",
+  "node.️mixlab.image.imagecropbyalpha.output.width.name" : "宽度",
+  "node.️mixlab.image.noiseimage.input.height.name" : "高度",
+  "node.️mixlab.image.noiseimage.input.width.name" : "宽度",
+  "node.️mixlab.image.resizeimagemixlab.input.height.name" : "高度",
+  "node.️mixlab.image.resizeimagemixlab.input.width.name" : "宽度",
+  "node.️mixlab.image.transparentimage.input.filename_prefix.name" : "文件名前缀",
+  "node.️mixlab.image.transparentimage.input.images.name" : "图像",
+  "node.️mixlab.layer.mergelayers.input.images.name" : "图像",
+  "node.️mixlab.layer.newlayer.input.height.name" : "高度",
+  "node.️mixlab.layer.newlayer.input.width.name" : "宽度",
+  "node.️mixlab.layer.showlayer.input.height.name" : "高度",
+  "node.️mixlab.layer.showlayer.input.width.name" : "宽度",
+  "node.️mixlab.mask.outlinemask.input.outline_width.name" : "描边宽度",
+  "node.️mixlab.prompt.promptimage.input.images.name" : "图像",
+  "node.motiondiff.motioncliptextencode.title" : "MotionCLIP 编码文本",
+  "node.motiondiff.smpl.savesmpl.input.filename_prefix.name" : "文件名前缀",
+  "node.sampling.custom_sampling.samplercustom.input.latent_image.name" : "潜空间图像",
+  "node.sampling.impactksampleradvancedbasicpipe.input.latent_image.name" : "潜空间图像",
+  "node.sampling.impactksampleradvancedbasicpipe.output.latent.name" : "潜空间图片",
+  "node.sampling.impactksamplerbasicpipe.input.latent_image.name" : "潜空间图像",
+  "node.sampling.impactksamplerbasicpipe.output.latent.name" : "潜空间图片",
+  "node.sampling.ksampleradvanced.input.latent_image.name" : "潜空间图像",
+  "node.sampling.ksampleradvanced.output.latent.name" : "潜空间图片",
+  "node.sampling.ksampler.input.denoise.name" : "去噪",
+  "node.sampling.ksampler.input.latent_image.name" : "潜空间图像",
+  "node.sampling.ksampler.input.negative.name" : "反向调节",
+  "node.sampling.ksampler.input.positive.name" : "正向调节",
+  "node.sampling.ksampler.input.sampler_name.name" : "采样器",
+  "node.sampling.ksampler.input.scheduler.name" : "调度器",
+  "node.sampling.ksampler.input.seed.name" : "随机种子",
+  "node.sampling.ksampler.input.steps.name" : "迭代步数",
+  "node.sampling.ksampler.main_context._title" : "Karras 类采样器",
+  "node.sampling.ksampler.output.latent.name" : "潜空间图片",
+  "node.sampling.ksamplerseq2.input.latent_image.name" : "潜空间图像",
+  "node.sampling.ksamplerseq2.output.latent.name" : "潜空间图片",
+  "node.sampling.ksampler.slot_context.conditioning._title" : "调节",
+  "node.sampling.ksampler.slot_context.model._title" : "模型",
+  "node.sampling.ksampler.title" : "Karras 类采样器",
+  "node.tests.stablezero123.input.ckpt_name.name" : "模型名称",
+  "node.tests.stablezero123.input.images.name" : "图像",
+  "node.utils.primitivenode.input.value.name" : "值",
+  "node.utils.primitivenode.main_context._title" : "基元节点",
+  "node.utils.primitivenode.output.combo.name" : "组合",
+  "node.utils.primitivenode.output.connect_to_widget_input.name" : "连接到输入部件",
+  "node.utils.primitivenode.title" : "基元",
+  "node.was_suite.image.image_batch.input.images_a.name" : "图像 A",
+  "node.was_suite.image.image_batch.input.images_b.name" : "图像 B",
+  "node.was_suite.image.image_batch.input.images_c.name" : "图像 C",
+  "node.was_suite.image.image_batch.input.images_d.name" : "图像 D",
+  "ui.sidebar.batch_count" : "批次数量",
+  "ui.sidebar.clear_button" : "清空",
+  "ui.sidebar.extra_options" : "额外选项",
+  "ui.sidebar.load_button" : "加载",
+  "ui.sidebar.load_default_button" : "恢复默认",
+  "ui.sidebar.queue_button" : "加入队列",
+  "ui.sidebar.queue_front_button" : "插队",
+  "ui.sidebar.refresh_button" : "刷新",
+  "ui.sidebar.save_api_button" : "保存 (API 格式)",
+  "ui.sidebar.save_button" : "保存",
+  "ui.sidebar.view_history_button" : "查看历史记录",
+  "ui.sidebar.view_queue_button" : "查看队列内容"
 }
