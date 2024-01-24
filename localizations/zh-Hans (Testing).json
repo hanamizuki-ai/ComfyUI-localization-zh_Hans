@@ -53,7 +53,7 @@
   "context.canvas_menu.add_node.blend_latents" : "Blend Latents",
   "context.canvas_menu.add_node.blip_analyze_image" : "BLIP 图像分析",
   "context.canvas_menu.add_node.blip_model_loader" : "BLIP 模型加载器",
-  "context.canvas_menu.add_node.blvaeencode" : "VAE 编码器（潜空间嵌入）",
+  "context.canvas_menu.add_node.blvaeencode" : "VAE 编码器 (潜空间嵌入)",
   "context.canvas_menu.add_node.bnk_addclipsdxlparams" : "添加 CLIP SDXL 参数",
   "context.canvas_menu.add_node.bnk_addclipsdxlrparams" : "添加 CLIP SDXL Refiner 参数",
   "context.canvas_menu.add_node.bnk_cliptextencodeadvanced" : "CLIP 编码文本 (高级)",
