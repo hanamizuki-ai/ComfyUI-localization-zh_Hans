@@ -1125,6 +1125,8 @@
   "node.loaders.loraloader.title" : "加载 LoRA",
   "node.loaders.taesdloader.input.file_name.name" : "文件名",
   "node.loaders.taesdloader.main_context._title" : "TAESD 加载器",
+  "node.loaders.taesdloader.output.vae.name" : "VAE",
+  "node.loaders.taesdloader.title" : "加载 TAESD",
   "node.loaders.unclipcheckpointloader.input.ckpt_name.name" : "模型名称",
   "node.loaders.upscalemodelloader.input.model_name.name" : "模型名称",
   "node.loaders.upscalemodelloader.main_context._title" : "放大模型加载器",
